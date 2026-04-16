@@ -8,6 +8,7 @@ node_modules/
 # Local tool state
 .playwright-mcp/
 .superpowers/
+.claude/settings.local.json
 
 # Environment files
 .env
