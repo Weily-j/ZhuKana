@@ -1,0 +1,9 @@
+{
+  "name": "zhuyin-jp-keyboard-pwa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "generate:candidates": "node ./scripts/generate-candidates.mjs"
+  }
+}

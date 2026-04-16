@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2f6fed" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>注音日文鍵盤 PWA</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="./icons/app-icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/app-icon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="output-panel" aria-labelledby="output-heading">
+        <header class="panel-heading">
+          <div>
+            <p class="eyebrow">Mobile First PWA</p>
+            <h1 id="output-heading">注音日文鍵盤</h1>
+          </div>
+          <div id="mode-status" class="mode-status" aria-live="polite">平假名</div>
+        </header>
+
+        <div class="text-card">
+          <div class="text-toolbar">
+            <div class="text-meta">
+              <span class="meta-label">文字輸入區</span>
+              <span id="composition-badge" class="composition-badge" hidden>組字中</span>
+            </div>
+            <p id="feedback-message" class="feedback-message" aria-live="polite"></p>
+          </div>
+
+          <div
+            id="text-display"
+            class="text-display"
+            role="textbox"
+            aria-readonly="true"
+            aria-label="日文輸出文字"
+            tabindex="0"
+          >
+            <span id="confirmed-text"></span>
+            <span id="buffer-text"></span>
+            <span id="empty-placeholder" class="empty-placeholder">從下方鍵盤開始輸入日文假名</span>
+          </div>
+
+          <div class="output-actions">
+            <div class="action-cluster">
+              <button id="copy-button" class="output-button output-button--copy" aria-label="複製輸出文字">
+                複製
+              </button>
+              <button id="share-button" class="output-button output-button--share" aria-label="分享輸出文字">
+                分享
+              </button>
+            </div>
+
+            <div class="clear-stack">
+              <small class="clear-hint">長按才清除</small>
+              <button
+                id="clear-button"
+                class="output-button output-button--clear"
+                aria-label="長按清除所有文字"
+              >
+                清除
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="candidate-panel" aria-labelledby="candidate-heading">
+        <h2 id="candidate-heading" class="sr-only">候補欄</h2>
+        <div id="candidate-rail" class="candidate-rail" role="listbox" aria-label="候補詞"></div>
+        <p id="candidate-hint" class="candidate-hint" hidden>點選完成輸入</p>
+      </section>
+
+      <section class="keyboard-panel" aria-labelledby="keyboard-heading">
+        <h2 id="keyboard-heading" class="sr-only">九宮格鍵盤</h2>
+        <div id="keyboard-grid" class="keyboard-grid"></div>
+      </section>
+    </main>
+
+    <div id="flick-callout" class="flick-callout" hidden></div>
+    <div id="toast" class="toast" hidden aria-live="polite"></div>
+    <div class="rotate-lock" aria-hidden="true">請保持直向使用，操作會更順手。</div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

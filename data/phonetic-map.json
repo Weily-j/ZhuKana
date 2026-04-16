@@ -1,0 +1,266 @@
+{
+  "baseRows": [
+    {
+      "id": "a",
+      "labelBopomofo": "母音",
+      "labelKana": "あ行",
+      "cells": {
+        "tap": { "hiragana": "あ", "katakana": "ア", "phonetic": "ㄚ" },
+        "up": { "hiragana": "い", "katakana": "イ", "phonetic": "ㄧ" },
+        "right": { "hiragana": "う", "katakana": "ウ", "phonetic": "ㄨ" },
+        "down": { "hiragana": "え", "katakana": "エ", "phonetic": "ㄝ" },
+        "left": { "hiragana": "お", "katakana": "オ", "phonetic": "ㄛ" }
+      }
+    },
+    {
+      "id": "sa",
+      "labelBopomofo": "ㄙ",
+      "labelKana": "さ行",
+      "exceptionRow": true,
+      "cells": {
+        "tap": { "hiragana": "さ", "katakana": "サ", "phonetic": "ㄙㄚ" },
+        "up": {
+          "hiragana": "し",
+          "katakana": "シ",
+          "phonetic": "ㄒㄧ",
+          "exception": true,
+          "note": "摩擦位置偏前"
+        },
+        "right": { "hiragana": "す", "katakana": "ス", "phonetic": "ㄙㄨ" },
+        "down": { "hiragana": "せ", "katakana": "セ", "phonetic": "ㄙㄝ" },
+        "left": { "hiragana": "そ", "katakana": "ソ", "phonetic": "ㄙㄛ" }
+      }
+    },
+    {
+      "id": "ta",
+      "labelBopomofo": "ㄊ",
+      "labelKana": "た行",
+      "exceptionRow": true,
+      "cells": {
+        "tap": { "hiragana": "た", "katakana": "タ", "phonetic": "ㄊㄚ" },
+        "up": {
+          "hiragana": "ち",
+          "katakana": "チ",
+          "phonetic": "ㄑㄧ",
+          "exception": true,
+          "note": "顎化音"
+        },
+        "right": {
+          "hiragana": "つ",
+          "katakana": "ツ",
+          "phonetic": "ㄘㄨ",
+          "exception": true,
+          "note": "近似但う為非圓唇"
+        },
+        "down": { "hiragana": "て", "katakana": "テ", "phonetic": "ㄊㄝ" },
+        "left": { "hiragana": "と", "katakana": "ト", "phonetic": "ㄊㄛ" }
+      }
+    },
+    {
+      "id": "ka",
+      "labelBopomofo": "ㄎ",
+      "labelKana": "か行",
+      "cells": {
+        "tap": { "hiragana": "か", "katakana": "カ", "phonetic": "ㄎㄚ" },
+        "up": { "hiragana": "き", "katakana": "キ", "phonetic": "ㄎㄧ" },
+        "right": { "hiragana": "く", "katakana": "ク", "phonetic": "ㄎㄨ" },
+        "down": { "hiragana": "け", "katakana": "ケ", "phonetic": "ㄎㄝ" },
+        "left": { "hiragana": "こ", "katakana": "コ", "phonetic": "ㄎㄛ" }
+      }
+    },
+    {
+      "id": "na",
+      "labelBopomofo": "ㄋ",
+      "labelKana": "な行",
+      "cells": {
+        "tap": { "hiragana": "な", "katakana": "ナ", "phonetic": "ㄋㄚ" },
+        "up": { "hiragana": "に", "katakana": "ニ", "phonetic": "ㄋㄧ" },
+        "right": { "hiragana": "ぬ", "katakana": "ヌ", "phonetic": "ㄋㄨ" },
+        "down": { "hiragana": "ね", "katakana": "ネ", "phonetic": "ㄋㄝ" },
+        "left": { "hiragana": "の", "katakana": "ノ", "phonetic": "ㄋㄛ" }
+      }
+    },
+    {
+      "id": "ha",
+      "labelBopomofo": "ㄏ",
+      "labelKana": "は行",
+      "exceptionRow": true,
+      "cells": {
+        "tap": { "hiragana": "は", "katakana": "ハ", "phonetic": "ㄏㄚ" },
+        "up": { "hiragana": "ひ", "katakana": "ヒ", "phonetic": "ㄏㄧ" },
+        "right": {
+          "hiragana": "ふ",
+          "katakana": "フ",
+          "phonetic": "ㄈㄨ",
+          "exception": true,
+          "note": "雙唇摩擦音"
+        },
+        "down": { "hiragana": "へ", "katakana": "ヘ", "phonetic": "ㄏㄝ" },
+        "left": { "hiragana": "ほ", "katakana": "ホ", "phonetic": "ㄏㄛ" }
+      }
+    },
+    {
+      "id": "ma",
+      "labelBopomofo": "ㄇ",
+      "labelKana": "ま行",
+      "cells": {
+        "tap": { "hiragana": "ま", "katakana": "マ", "phonetic": "ㄇㄚ" },
+        "up": { "hiragana": "み", "katakana": "ミ", "phonetic": "ㄇㄧ" },
+        "right": { "hiragana": "む", "katakana": "ム", "phonetic": "ㄇㄨ" },
+        "down": { "hiragana": "め", "katakana": "メ", "phonetic": "ㄇㄝ" },
+        "left": { "hiragana": "も", "katakana": "モ", "phonetic": "ㄇㄛ" }
+      }
+    },
+    {
+      "id": "ya",
+      "labelBopomofo": "ㄧ",
+      "labelKana": "や行",
+      "cells": {
+        "tap": { "hiragana": "や", "katakana": "ヤ", "phonetic": "ㄧㄚ" },
+        "up": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
+        "right": { "hiragana": "ゆ", "katakana": "ユ", "phonetic": "ㄧㄨ" },
+        "down": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
+        "left": { "hiragana": "よ", "katakana": "ヨ", "phonetic": "ㄧㄛ" }
+      }
+    },
+    {
+      "id": "ra",
+      "labelBopomofo": "ㄌ",
+      "labelKana": "ら行",
+      "cells": {
+        "tap": { "hiragana": "ら", "katakana": "ラ", "phonetic": "ㄌㄚ" },
+        "up": { "hiragana": "り", "katakana": "リ", "phonetic": "ㄌㄧ" },
+        "right": { "hiragana": "る", "katakana": "ル", "phonetic": "ㄌㄨ" },
+        "down": { "hiragana": "れ", "katakana": "レ", "phonetic": "ㄌㄝ" },
+        "left": { "hiragana": "ろ", "katakana": "ロ", "phonetic": "ㄌㄛ" }
+      }
+    },
+    {
+      "id": "wa",
+      "labelBopomofo": "ㄨ",
+      "labelKana": "わ行",
+      "cells": {
+        "tap": { "hiragana": "わ", "katakana": "ワ", "phonetic": "ㄨㄚ" },
+        "up": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
+        "right": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
+        "down": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
+        "left": {
+          "hiragana": "を",
+          "katakana": "ヲ",
+          "phonetic": "ㄛ",
+          "special": true,
+          "note": "現代口語等同お"
+        }
+      }
+    }
+  ],
+  "voicedRows": [
+    {
+      "id": "ga",
+      "labelBopomofo": "ㄍ",
+      "labelKana": "が行",
+      "cells": {
+        "tap": { "hiragana": "が", "katakana": "ガ", "phonetic": "ㄍㄚ" },
+        "up": { "hiragana": "ぎ", "katakana": "ギ", "phonetic": "ㄍㄧ" },
+        "right": { "hiragana": "ぐ", "katakana": "グ", "phonetic": "ㄍㄨ" },
+        "down": { "hiragana": "げ", "katakana": "ゲ", "phonetic": "ㄍㄝ" },
+        "left": { "hiragana": "ご", "katakana": "ゴ", "phonetic": "ㄍㄛ" }
+      }
+    },
+    {
+      "id": "za",
+      "labelBopomofo": "ㄗ",
+      "labelKana": "ざ行",
+      "cells": {
+        "tap": { "hiragana": "ざ", "katakana": "ザ", "phonetic": "ㄗㄚ" },
+        "up": {
+          "hiragana": "じ",
+          "katakana": "ジ",
+          "phonetic": "ㄐㄧ",
+          "merge": true,
+          "note": "現代音值相同"
+        },
+        "right": {
+          "hiragana": "ず",
+          "katakana": "ズ",
+          "phonetic": "ㄗㄨ",
+          "merge": true,
+          "note": "現代音值相同"
+        },
+        "down": { "hiragana": "ぜ", "katakana": "ゼ", "phonetic": "ㄗㄝ" },
+        "left": { "hiragana": "ぞ", "katakana": "ゾ", "phonetic": "ㄗㄛ" }
+      }
+    },
+    {
+      "id": "da",
+      "labelBopomofo": "ㄉ",
+      "labelKana": "だ行",
+      "cells": {
+        "tap": { "hiragana": "だ", "katakana": "ダ", "phonetic": "ㄉㄚ" },
+        "up": {
+          "hiragana": "ぢ",
+          "katakana": "ヂ",
+          "phonetic": "ㄐㄧ",
+          "merge": true,
+          "note": "現代音值相同"
+        },
+        "right": {
+          "hiragana": "づ",
+          "katakana": "ヅ",
+          "phonetic": "ㄗㄨ",
+          "merge": true,
+          "note": "現代音值相同"
+        },
+        "down": { "hiragana": "で", "katakana": "デ", "phonetic": "ㄉㄝ" },
+        "left": { "hiragana": "ど", "katakana": "ド", "phonetic": "ㄉㄛ" }
+      }
+    },
+    {
+      "id": "ba",
+      "labelBopomofo": "ㄅ",
+      "labelKana": "ば行",
+      "cells": {
+        "tap": { "hiragana": "ば", "katakana": "バ", "phonetic": "ㄅㄚ" },
+        "up": { "hiragana": "び", "katakana": "ビ", "phonetic": "ㄅㄧ" },
+        "right": { "hiragana": "ぶ", "katakana": "ブ", "phonetic": "ㄅㄨ" },
+        "down": { "hiragana": "べ", "katakana": "ベ", "phonetic": "ㄅㄝ" },
+        "left": { "hiragana": "ぼ", "katakana": "ボ", "phonetic": "ㄅㄛ" }
+      }
+    }
+  ],
+  "semiVoicedRows": [
+    {
+      "id": "pa",
+      "labelBopomofo": "ㄆ",
+      "labelKana": "ぱ行",
+      "cells": {
+        "tap": { "hiragana": "ぱ", "katakana": "パ", "phonetic": "ㄆㄚ" },
+        "up": { "hiragana": "ぴ", "katakana": "ピ", "phonetic": "ㄆㄧ" },
+        "right": { "hiragana": "ぷ", "katakana": "プ", "phonetic": "ㄆㄨ" },
+        "down": { "hiragana": "ぺ", "katakana": "ペ", "phonetic": "ㄆㄝ" },
+        "left": { "hiragana": "ぽ", "katakana": "ポ", "phonetic": "ㄆㄛ" }
+      }
+    }
+  ],
+  "mergeGroups": [
+    {
+      "id": "ji-merge",
+      "members": ["じ", "ぢ"],
+      "phonetic": "ㄐㄧ",
+      "note": "現代音值相同"
+    },
+    {
+      "id": "zu-merge",
+      "members": ["ず", "づ"],
+      "phonetic": "ㄗㄨ",
+      "note": "現代音值相同"
+    }
+  ],
+  "specials": {
+    "を": {
+      "phonetic": "ㄛ",
+      "special": true,
+      "note": "現代口語等同お"
+    }
+  }
+}

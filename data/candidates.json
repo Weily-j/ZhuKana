@@ -1,0 +1,3902 @@
+[
+  {
+    "text": "すみません",
+    "reading": "すみません",
+    "category": "essential"
+  },
+  {
+    "text": "ありがとうございます",
+    "reading": "ありがとうございます",
+    "category": "essential"
+  },
+  {
+    "text": "こんにちは",
+    "reading": "こんにちは",
+    "category": "essential"
+  },
+  {
+    "text": "こんばんは",
+    "reading": "こんばんは",
+    "category": "essential"
+  },
+  {
+    "text": "おはようございます",
+    "reading": "おはようございます",
+    "category": "essential"
+  },
+  {
+    "text": "はじめまして",
+    "reading": "はじめまして",
+    "category": "essential"
+  },
+  {
+    "text": "よろしくおねがいします",
+    "reading": "よろしくおねがいします",
+    "category": "essential"
+  },
+  {
+    "text": "ごめんなさい",
+    "reading": "ごめんなさい",
+    "category": "essential"
+  },
+  {
+    "text": "だいじょうぶです",
+    "reading": "だいじょうぶです",
+    "category": "essential"
+  },
+  {
+    "text": "けっこうです",
+    "reading": "けっこうです",
+    "category": "essential"
+  },
+  {
+    "text": "おねがいします",
+    "reading": "おねがいします",
+    "category": "essential"
+  },
+  {
+    "text": "わかりました",
+    "reading": "わかりました",
+    "category": "essential"
+  },
+  {
+    "text": "わかりません",
+    "reading": "わかりません",
+    "category": "essential"
+  },
+  {
+    "text": "もういちどおねがいします",
+    "reading": "もういちどおねがいします",
+    "category": "essential"
+  },
+  {
+    "text": "ゆっくりおねがいします",
+    "reading": "ゆっくりおねがいします",
+    "category": "essential"
+  },
+  {
+    "text": "にほんごはすこしだけです",
+    "reading": "にほんごはすこしだけです",
+    "category": "essential"
+  },
+  {
+    "text": "えいごはできますか",
+    "reading": "えいごはできますか",
+    "category": "essential"
+  },
+  {
+    "text": "しゃしんをとってもいいですか",
+    "reading": "しゃしんをとってもいいですか",
+    "category": "essential"
+  },
+  {
+    "text": "ちずをみせてください",
+    "reading": "ちずをみせてください",
+    "category": "essential"
+  },
+  {
+    "text": "たすけてください",
+    "reading": "たすけてください",
+    "category": "essential"
+  },
+  {
+    "text": "きっぷをください",
+    "reading": "きっぷをください",
+    "category": "essential"
+  },
+  {
+    "text": "これをください",
+    "reading": "これをください",
+    "category": "essential"
+  },
+  {
+    "text": "おみずをください",
+    "reading": "おみずをください",
+    "category": "essential"
+  },
+  {
+    "text": "おちゃをください",
+    "reading": "おちゃをください",
+    "category": "essential"
+  },
+  {
+    "text": "おかいけいおねがいします",
+    "reading": "おかいけいおねがいします",
+    "category": "essential"
+  },
+  {
+    "text": "おすすめはなんですか",
+    "reading": "おすすめはなんですか",
+    "category": "essential"
+  },
+  {
+    "text": "どこですか",
+    "reading": "どこですか",
+    "category": "essential"
+  },
+  {
+    "text": "いくらですか",
+    "reading": "いくらですか",
+    "category": "essential"
+  },
+  {
+    "text": "つぎでおります",
+    "reading": "つぎでおります",
+    "category": "essential"
+  },
+  {
+    "text": "ここでおります",
+    "reading": "ここでおります",
+    "category": "essential"
+  },
+  {
+    "text": "とうきょう",
+    "reading": "とうきょう",
+    "category": "city"
+  },
+  {
+    "text": "とうきょうえき",
+    "reading": "とうきょうえき",
+    "category": "city"
+  },
+  {
+    "text": "とうきょうへいきたいです",
+    "reading": "とうきょうへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "とうきょうまでおねがいします",
+    "reading": "とうきょうまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "とうきょうまでいくらですか",
+    "reading": "とうきょうまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "おおさか",
+    "reading": "おおさか",
+    "category": "city"
+  },
+  {
+    "text": "おおさかえき",
+    "reading": "おおさかえき",
+    "category": "city"
+  },
+  {
+    "text": "おおさかへいきたいです",
+    "reading": "おおさかへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "おおさかまでおねがいします",
+    "reading": "おおさかまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "おおさかまでいくらですか",
+    "reading": "おおさかまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "きょうと",
+    "reading": "きょうと",
+    "category": "city"
+  },
+  {
+    "text": "きょうとえき",
+    "reading": "きょうとえき",
+    "category": "city"
+  },
+  {
+    "text": "きょうとへいきたいです",
+    "reading": "きょうとへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "きょうとまでおねがいします",
+    "reading": "きょうとまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "きょうとまでいくらですか",
+    "reading": "きょうとまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "なら",
+    "reading": "なら",
+    "category": "city"
+  },
+  {
+    "text": "ならえき",
+    "reading": "ならえき",
+    "category": "city"
+  },
+  {
+    "text": "ならへいきたいです",
+    "reading": "ならへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ならまでおねがいします",
+    "reading": "ならまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "ならまでいくらですか",
+    "reading": "ならまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "こうべ",
+    "reading": "こうべ",
+    "category": "city"
+  },
+  {
+    "text": "こうべえき",
+    "reading": "こうべえき",
+    "category": "city"
+  },
+  {
+    "text": "こうべへいきたいです",
+    "reading": "こうべへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "こうべまでおねがいします",
+    "reading": "こうべまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "こうべまでいくらですか",
+    "reading": "こうべまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "よこはま",
+    "reading": "よこはま",
+    "category": "city"
+  },
+  {
+    "text": "よこはまえき",
+    "reading": "よこはまえき",
+    "category": "city"
+  },
+  {
+    "text": "よこはまへいきたいです",
+    "reading": "よこはまへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "よこはままでおねがいします",
+    "reading": "よこはままでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "よこはままでいくらですか",
+    "reading": "よこはままでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "なごや",
+    "reading": "なごや",
+    "category": "city"
+  },
+  {
+    "text": "なごやえき",
+    "reading": "なごやえき",
+    "category": "city"
+  },
+  {
+    "text": "なごやへいきたいです",
+    "reading": "なごやへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "なごやまでおねがいします",
+    "reading": "なごやまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "なごやまでいくらですか",
+    "reading": "なごやまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "さっぽろ",
+    "reading": "さっぽろ",
+    "category": "city"
+  },
+  {
+    "text": "さっぽろえき",
+    "reading": "さっぽろえき",
+    "category": "city"
+  },
+  {
+    "text": "さっぽろへいきたいです",
+    "reading": "さっぽろへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "さっぽろまでおねがいします",
+    "reading": "さっぽろまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "さっぽろまでいくらですか",
+    "reading": "さっぽろまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "ふくおか",
+    "reading": "ふくおか",
+    "category": "city"
+  },
+  {
+    "text": "ふくおかえき",
+    "reading": "ふくおかえき",
+    "category": "city"
+  },
+  {
+    "text": "ふくおかへいきたいです",
+    "reading": "ふくおかへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ふくおかまでおねがいします",
+    "reading": "ふくおかまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "ふくおかまでいくらですか",
+    "reading": "ふくおかまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "ひろしま",
+    "reading": "ひろしま",
+    "category": "city"
+  },
+  {
+    "text": "ひろしまえき",
+    "reading": "ひろしまえき",
+    "category": "city"
+  },
+  {
+    "text": "ひろしまへいきたいです",
+    "reading": "ひろしまへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ひろしままでおねがいします",
+    "reading": "ひろしままでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "ひろしままでいくらですか",
+    "reading": "ひろしままでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "せんだい",
+    "reading": "せんだい",
+    "category": "city"
+  },
+  {
+    "text": "せんだいえき",
+    "reading": "せんだいえき",
+    "category": "city"
+  },
+  {
+    "text": "せんだいへいきたいです",
+    "reading": "せんだいへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "せんだいまでおねがいします",
+    "reading": "せんだいまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "せんだいまでいくらですか",
+    "reading": "せんだいまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "かなざわ",
+    "reading": "かなざわ",
+    "category": "city"
+  },
+  {
+    "text": "かなざわえき",
+    "reading": "かなざわえき",
+    "category": "city"
+  },
+  {
+    "text": "かなざわへいきたいです",
+    "reading": "かなざわへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "かなざわまでおねがいします",
+    "reading": "かなざわまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "かなざわまでいくらですか",
+    "reading": "かなざわまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "おきなわ",
+    "reading": "おきなわ",
+    "category": "city"
+  },
+  {
+    "text": "おきなわえき",
+    "reading": "おきなわえき",
+    "category": "city"
+  },
+  {
+    "text": "おきなわへいきたいです",
+    "reading": "おきなわへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "おきなわまでおねがいします",
+    "reading": "おきなわまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "おきなわまでいくらですか",
+    "reading": "おきなわまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "はこだて",
+    "reading": "はこだて",
+    "category": "city"
+  },
+  {
+    "text": "はこだてえき",
+    "reading": "はこだてえき",
+    "category": "city"
+  },
+  {
+    "text": "はこだてへいきたいです",
+    "reading": "はこだてへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "はこだてまでおねがいします",
+    "reading": "はこだてまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "はこだてまでいくらですか",
+    "reading": "はこだてまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "にっこう",
+    "reading": "にっこう",
+    "category": "city"
+  },
+  {
+    "text": "にっこうえき",
+    "reading": "にっこうえき",
+    "category": "city"
+  },
+  {
+    "text": "にっこうへいきたいです",
+    "reading": "にっこうへいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "にっこうまでおねがいします",
+    "reading": "にっこうまでおねがいします",
+    "category": "transport"
+  },
+  {
+    "text": "にっこうまでいくらですか",
+    "reading": "にっこうまでいくらですか",
+    "category": "transport"
+  },
+  {
+    "text": "えき",
+    "reading": "えき",
+    "category": "location"
+  },
+  {
+    "text": "えきはどこですか",
+    "reading": "えきはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "えきにいきたいです",
+    "reading": "えきにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "えきはありますか",
+    "reading": "えきはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "えきまであるいていけますか",
+    "reading": "えきまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "えきまでなんぷんですか",
+    "reading": "えきまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "えきまでちかいですか",
+    "reading": "えきまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "えきまでのちずはありますか",
+    "reading": "えきまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこう",
+    "reading": "くうこう",
+    "category": "location"
+  },
+  {
+    "text": "くうこうはどこですか",
+    "reading": "くうこうはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこうにいきたいです",
+    "reading": "くうこうにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこうはありますか",
+    "reading": "くうこうはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこうまであるいていけますか",
+    "reading": "くうこうまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこうまでなんぷんですか",
+    "reading": "くうこうまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこうまでちかいですか",
+    "reading": "くうこうまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "くうこうまでのちずはありますか",
+    "reading": "くうこうまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすてい",
+    "reading": "ばすてい",
+    "category": "location"
+  },
+  {
+    "text": "ばすていはどこですか",
+    "reading": "ばすていはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすていにいきたいです",
+    "reading": "ばすていにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすていはありますか",
+    "reading": "ばすていはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすていまであるいていけますか",
+    "reading": "ばすていまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすていまでなんぷんですか",
+    "reading": "ばすていまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすていまでちかいですか",
+    "reading": "ばすていまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ばすていまでのちずはありますか",
+    "reading": "ばすていまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつ",
+    "reading": "ちかてつ",
+    "category": "location"
+  },
+  {
+    "text": "ちかてつはどこですか",
+    "reading": "ちかてつはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつにいきたいです",
+    "reading": "ちかてつにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつはありますか",
+    "reading": "ちかてつはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつまであるいていけますか",
+    "reading": "ちかてつまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつまでなんぷんですか",
+    "reading": "ちかてつまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつまでちかいですか",
+    "reading": "ちかてつまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ちかてつまでのちずはありますか",
+    "reading": "ちかてつまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてる",
+    "reading": "ほてる",
+    "category": "location"
+  },
+  {
+    "text": "ほてるはどこですか",
+    "reading": "ほてるはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてるにいきたいです",
+    "reading": "ほてるにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてるはありますか",
+    "reading": "ほてるはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてるまであるいていけますか",
+    "reading": "ほてるまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてるまでなんぷんですか",
+    "reading": "ほてるまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてるまでちかいですか",
+    "reading": "ほてるまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ほてるまでのちずはありますか",
+    "reading": "ほてるまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかん",
+    "reading": "りょかん",
+    "category": "location"
+  },
+  {
+    "text": "りょかんはどこですか",
+    "reading": "りょかんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかんにいきたいです",
+    "reading": "りょかんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかんはありますか",
+    "reading": "りょかんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかんまであるいていけますか",
+    "reading": "りょかんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかんまでなんぷんですか",
+    "reading": "りょかんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかんまでちかいですか",
+    "reading": "りょかんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "りょかんまでのちずはありますか",
+    "reading": "りょかんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "といれ",
+    "reading": "といれ",
+    "category": "location"
+  },
+  {
+    "text": "といれはどこですか",
+    "reading": "といれはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "といれにいきたいです",
+    "reading": "といれにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "といれはありますか",
+    "reading": "といれはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "といれまであるいていけますか",
+    "reading": "といれまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "といれまでなんぷんですか",
+    "reading": "といれまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "といれまでちかいですか",
+    "reading": "といれまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "といれまでのちずはありますか",
+    "reading": "といれまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびに",
+    "reading": "こんびに",
+    "category": "location"
+  },
+  {
+    "text": "こんびにはどこですか",
+    "reading": "こんびにはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびににいきたいです",
+    "reading": "こんびににいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびにはありますか",
+    "reading": "こんびにはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびにまであるいていけますか",
+    "reading": "こんびにまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびにまでなんぷんですか",
+    "reading": "こんびにまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびにまでちかいですか",
+    "reading": "こんびにまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こんびにまでのちずはありますか",
+    "reading": "こんびにまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱー",
+    "reading": "すーぱー",
+    "category": "location"
+  },
+  {
+    "text": "すーぱーはどこですか",
+    "reading": "すーぱーはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱーにいきたいです",
+    "reading": "すーぱーにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱーはありますか",
+    "reading": "すーぱーはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱーまであるいていけますか",
+    "reading": "すーぱーまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱーまでなんぷんですか",
+    "reading": "すーぱーまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱーまでちかいですか",
+    "reading": "すーぱーまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すーぱーまでのちずはありますか",
+    "reading": "すーぱーまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょく",
+    "reading": "やっきょく",
+    "category": "location"
+  },
+  {
+    "text": "やっきょくはどこですか",
+    "reading": "やっきょくはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょくにいきたいです",
+    "reading": "やっきょくにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょくはありますか",
+    "reading": "やっきょくはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょくまであるいていけますか",
+    "reading": "やっきょくまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょくまでなんぷんですか",
+    "reading": "やっきょくまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょくまでちかいですか",
+    "reading": "やっきょくまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "やっきょくまでのちずはありますか",
+    "reading": "やっきょくまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういん",
+    "reading": "びょういん",
+    "category": "location"
+  },
+  {
+    "text": "びょういんはどこですか",
+    "reading": "びょういんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういんにいきたいです",
+    "reading": "びょういんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういんはありますか",
+    "reading": "びょういんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういんまであるいていけますか",
+    "reading": "びょういんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういんまでなんぷんですか",
+    "reading": "びょういんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういんまでちかいですか",
+    "reading": "びょういんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "びょういんまでのちずはありますか",
+    "reading": "びょういんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばん",
+    "reading": "こうばん",
+    "category": "location"
+  },
+  {
+    "text": "こうばんはどこですか",
+    "reading": "こうばんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばんにいきたいです",
+    "reading": "こうばんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばんはありますか",
+    "reading": "こうばんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばんまであるいていけますか",
+    "reading": "こうばんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばんまでなんぷんですか",
+    "reading": "こうばんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばんまでちかいですか",
+    "reading": "こうばんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうばんまでのちずはありますか",
+    "reading": "こうばんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこう",
+    "reading": "ぎんこう",
+    "category": "location"
+  },
+  {
+    "text": "ぎんこうはどこですか",
+    "reading": "ぎんこうはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこうにいきたいです",
+    "reading": "ぎんこうにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこうはありますか",
+    "reading": "ぎんこうはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこうまであるいていけますか",
+    "reading": "ぎんこうまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこうまでなんぷんですか",
+    "reading": "ぎんこうまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこうまでちかいですか",
+    "reading": "ぎんこうまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎんこうまでのちずはありますか",
+    "reading": "ぎんこうまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょく",
+    "reading": "ゆうびんきょく",
+    "category": "location"
+  },
+  {
+    "text": "ゆうびんきょくはどこですか",
+    "reading": "ゆうびんきょくはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょくにいきたいです",
+    "reading": "ゆうびんきょくにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょくはありますか",
+    "reading": "ゆうびんきょくはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょくまであるいていけますか",
+    "reading": "ゆうびんきょくまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょくまでなんぷんですか",
+    "reading": "ゆうびんきょくまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょくまでちかいですか",
+    "reading": "ゆうびんきょくまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうびんきょくまでのちずはありますか",
+    "reading": "ゆうびんきょくまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇ",
+    "reading": "かふぇ",
+    "category": "location"
+  },
+  {
+    "text": "かふぇはどこですか",
+    "reading": "かふぇはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇにいきたいです",
+    "reading": "かふぇにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇはありますか",
+    "reading": "かふぇはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇまであるいていけますか",
+    "reading": "かふぇまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇまでなんぷんですか",
+    "reading": "かふぇまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇまでちかいですか",
+    "reading": "かふぇまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "かふぇまでのちずはありますか",
+    "reading": "かふぇまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてん",
+    "reading": "きっさてん",
+    "category": "location"
+  },
+  {
+    "text": "きっさてんはどこですか",
+    "reading": "きっさてんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてんにいきたいです",
+    "reading": "きっさてんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてんはありますか",
+    "reading": "きっさてんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてんまであるいていけますか",
+    "reading": "きっさてんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてんまでなんぷんですか",
+    "reading": "きっさてんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてんまでちかいですか",
+    "reading": "きっさてんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "きっさてんまでのちずはありますか",
+    "reading": "きっさてんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらん",
+    "reading": "れすとらん",
+    "category": "location"
+  },
+  {
+    "text": "れすとらんはどこですか",
+    "reading": "れすとらんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらんにいきたいです",
+    "reading": "れすとらんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらんはありますか",
+    "reading": "れすとらんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらんまであるいていけますか",
+    "reading": "れすとらんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらんまでなんぷんですか",
+    "reading": "れすとらんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらんまでちかいですか",
+    "reading": "れすとらんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "れすとらんまでのちずはありますか",
+    "reading": "れすとらんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかや",
+    "reading": "いざかや",
+    "category": "location"
+  },
+  {
+    "text": "いざかやはどこですか",
+    "reading": "いざかやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかやにいきたいです",
+    "reading": "いざかやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかやはありますか",
+    "reading": "いざかやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかやまであるいていけますか",
+    "reading": "いざかやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかやまでなんぷんですか",
+    "reading": "いざかやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかやまでちかいですか",
+    "reading": "いざかやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "いざかやまでのちずはありますか",
+    "reading": "いざかやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すしや",
+    "reading": "すしや",
+    "category": "location"
+  },
+  {
+    "text": "すしやはどこですか",
+    "reading": "すしやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すしやにいきたいです",
+    "reading": "すしやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "すしやはありますか",
+    "reading": "すしやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すしやまであるいていけますか",
+    "reading": "すしやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すしやまでなんぷんですか",
+    "reading": "すしやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すしやまでちかいですか",
+    "reading": "すしやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すしやまでのちずはありますか",
+    "reading": "すしやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんや",
+    "reading": "らーめんや",
+    "category": "location"
+  },
+  {
+    "text": "らーめんやはどこですか",
+    "reading": "らーめんやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんやにいきたいです",
+    "reading": "らーめんやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんやはありますか",
+    "reading": "らーめんやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんやまであるいていけますか",
+    "reading": "らーめんやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんやまでなんぷんですか",
+    "reading": "らーめんやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんやまでちかいですか",
+    "reading": "らーめんやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "らーめんやまでのちずはありますか",
+    "reading": "らーめんやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんや",
+    "reading": "うどんや",
+    "category": "location"
+  },
+  {
+    "text": "うどんやはどこですか",
+    "reading": "うどんやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんやにいきたいです",
+    "reading": "うどんやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんやはありますか",
+    "reading": "うどんやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんやまであるいていけますか",
+    "reading": "うどんやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんやまでなんぷんですか",
+    "reading": "うどんやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんやまでちかいですか",
+    "reading": "うどんやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "うどんやまでのちずはありますか",
+    "reading": "うどんやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんや",
+    "reading": "ぎゅうどんや",
+    "category": "location"
+  },
+  {
+    "text": "ぎゅうどんやはどこですか",
+    "reading": "ぎゅうどんやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんやにいきたいです",
+    "reading": "ぎゅうどんやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんやはありますか",
+    "reading": "ぎゅうどんやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんやまであるいていけますか",
+    "reading": "ぎゅうどんやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんやまでなんぷんですか",
+    "reading": "ぎゅうどんやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんやまでちかいですか",
+    "reading": "ぎゅうどんやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ぎゅうどんやまでのちずはありますか",
+    "reading": "ぎゅうどんやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくや",
+    "reading": "やきにくや",
+    "category": "location"
+  },
+  {
+    "text": "やきにくやはどこですか",
+    "reading": "やきにくやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくやにいきたいです",
+    "reading": "やきにくやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくやはありますか",
+    "reading": "やきにくやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくやまであるいていけますか",
+    "reading": "やきにくやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくやまでなんぷんですか",
+    "reading": "やきにくやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくやまでちかいですか",
+    "reading": "やきにくやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "やきにくやまでのちずはありますか",
+    "reading": "やきにくやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーと",
+    "reading": "でぱーと",
+    "category": "location"
+  },
+  {
+    "text": "でぱーとはどこですか",
+    "reading": "でぱーとはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーとにいきたいです",
+    "reading": "でぱーとにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーとはありますか",
+    "reading": "でぱーとはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーとまであるいていけますか",
+    "reading": "でぱーとまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーとまでなんぷんですか",
+    "reading": "でぱーとまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーとまでちかいですか",
+    "reading": "でぱーとまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "でぱーとまでのちずはありますか",
+    "reading": "でぱーとまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあ",
+    "reading": "どらっぐすとあ",
+    "category": "location"
+  },
+  {
+    "text": "どらっぐすとあはどこですか",
+    "reading": "どらっぐすとあはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあにいきたいです",
+    "reading": "どらっぐすとあにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあはありますか",
+    "reading": "どらっぐすとあはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあまであるいていけますか",
+    "reading": "どらっぐすとあまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあまでなんぷんですか",
+    "reading": "どらっぐすとあまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあまでちかいですか",
+    "reading": "どらっぐすとあまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どらっぐすとあまでのちずはありますか",
+    "reading": "どらっぐすとあまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーて",
+    "reading": "どんきほーて",
+    "category": "location"
+  },
+  {
+    "text": "どんきほーてはどこですか",
+    "reading": "どんきほーてはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーてにいきたいです",
+    "reading": "どんきほーてにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーてはありますか",
+    "reading": "どんきほーてはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーてまであるいていけますか",
+    "reading": "どんきほーてまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーてまでなんぷんですか",
+    "reading": "どんきほーてまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーてまでちかいですか",
+    "reading": "どんきほーてまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どんきほーてまでのちずはありますか",
+    "reading": "どんきほーてまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきや",
+    "reading": "でんきや",
+    "category": "location"
+  },
+  {
+    "text": "でんきやはどこですか",
+    "reading": "でんきやはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきやにいきたいです",
+    "reading": "でんきやにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきやはありますか",
+    "reading": "でんきやはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきやまであるいていけますか",
+    "reading": "でんきやまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきやまでなんぷんですか",
+    "reading": "でんきやまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきやまでちかいですか",
+    "reading": "でんきやまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "でんきやまでのちずはありますか",
+    "reading": "でんきやまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "おてら",
+    "reading": "おてら",
+    "category": "location"
+  },
+  {
+    "text": "おてらはどこですか",
+    "reading": "おてらはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "おてらにいきたいです",
+    "reading": "おてらにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "おてらはありますか",
+    "reading": "おてらはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "おてらまであるいていけますか",
+    "reading": "おてらまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "おてらまでなんぷんですか",
+    "reading": "おてらまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "おてらまでちかいですか",
+    "reading": "おてらまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "おてらまでのちずはありますか",
+    "reading": "おてらまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃ",
+    "reading": "じんじゃ",
+    "category": "location"
+  },
+  {
+    "text": "じんじゃはどこですか",
+    "reading": "じんじゃはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃにいきたいです",
+    "reading": "じんじゃにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃはありますか",
+    "reading": "じんじゃはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃまであるいていけますか",
+    "reading": "じんじゃまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃまでなんぷんですか",
+    "reading": "じんじゃまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃまでちかいですか",
+    "reading": "じんじゃまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "じんじゃまでのちずはありますか",
+    "reading": "じんじゃまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかん",
+    "reading": "びじゅつかん",
+    "category": "location"
+  },
+  {
+    "text": "びじゅつかんはどこですか",
+    "reading": "びじゅつかんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかんにいきたいです",
+    "reading": "びじゅつかんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかんはありますか",
+    "reading": "びじゅつかんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかんまであるいていけますか",
+    "reading": "びじゅつかんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかんまでなんぷんですか",
+    "reading": "びじゅつかんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかんまでちかいですか",
+    "reading": "びじゅつかんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "びじゅつかんまでのちずはありますか",
+    "reading": "びじゅつかんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかん",
+    "reading": "はくぶつかん",
+    "category": "location"
+  },
+  {
+    "text": "はくぶつかんはどこですか",
+    "reading": "はくぶつかんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかんにいきたいです",
+    "reading": "はくぶつかんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかんはありますか",
+    "reading": "はくぶつかんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかんまであるいていけますか",
+    "reading": "はくぶつかんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかんまでなんぷんですか",
+    "reading": "はくぶつかんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかんまでちかいですか",
+    "reading": "はくぶつかんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "はくぶつかんまでのちずはありますか",
+    "reading": "はくぶつかんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえん",
+    "reading": "こうえん",
+    "category": "location"
+  },
+  {
+    "text": "こうえんはどこですか",
+    "reading": "こうえんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえんにいきたいです",
+    "reading": "こうえんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえんはありますか",
+    "reading": "こうえんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえんまであるいていけますか",
+    "reading": "こうえんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえんまでなんぷんですか",
+    "reading": "こうえんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえんまでちかいですか",
+    "reading": "こうえんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "こうえんまでのちずはありますか",
+    "reading": "こうえんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "しろ",
+    "reading": "しろ",
+    "category": "location"
+  },
+  {
+    "text": "しろはどこですか",
+    "reading": "しろはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "しろにいきたいです",
+    "reading": "しろにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "しろはありますか",
+    "reading": "しろはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "しろまであるいていけますか",
+    "reading": "しろまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "しろまでなんぷんですか",
+    "reading": "しろまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "しろまでちかいですか",
+    "reading": "しろまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "しろまでのちずはありますか",
+    "reading": "しろまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "たわー",
+    "reading": "たわー",
+    "category": "location"
+  },
+  {
+    "text": "たわーはどこですか",
+    "reading": "たわーはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "たわーにいきたいです",
+    "reading": "たわーにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "たわーはありますか",
+    "reading": "たわーはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "たわーまであるいていけますか",
+    "reading": "たわーまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "たわーまでなんぷんですか",
+    "reading": "たわーまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "たわーまでちかいですか",
+    "reading": "たわーまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "たわーまでのちずはありますか",
+    "reading": "たわーまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだい",
+    "reading": "てんぼうだい",
+    "category": "location"
+  },
+  {
+    "text": "てんぼうだいはどこですか",
+    "reading": "てんぼうだいはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだいにいきたいです",
+    "reading": "てんぼうだいにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだいはありますか",
+    "reading": "てんぼうだいはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだいまであるいていけますか",
+    "reading": "てんぼうだいまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだいまでなんぷんですか",
+    "reading": "てんぼうだいまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだいまでちかいですか",
+    "reading": "てんぼうだいまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "てんぼうだいまでのちずはありますか",
+    "reading": "てんぼうだいまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがん",
+    "reading": "かいがん",
+    "category": "location"
+  },
+  {
+    "text": "かいがんはどこですか",
+    "reading": "かいがんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがんにいきたいです",
+    "reading": "かいがんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがんはありますか",
+    "reading": "かいがんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがんまであるいていけますか",
+    "reading": "かいがんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがんまでなんぷんですか",
+    "reading": "かいがんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがんまでちかいですか",
+    "reading": "かいがんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "かいがんまでのちずはありますか",
+    "reading": "かいがんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせん",
+    "reading": "おんせん",
+    "category": "location"
+  },
+  {
+    "text": "おんせんはどこですか",
+    "reading": "おんせんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせんにいきたいです",
+    "reading": "おんせんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせんはありますか",
+    "reading": "おんせんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせんまであるいていけますか",
+    "reading": "おんせんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせんまでなんぷんですか",
+    "reading": "おんせんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせんまでちかいですか",
+    "reading": "おんせんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "おんせんまでのちずはありますか",
+    "reading": "おんせんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんち",
+    "reading": "ゆうえんち",
+    "category": "location"
+  },
+  {
+    "text": "ゆうえんちはどこですか",
+    "reading": "ゆうえんちはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんちにいきたいです",
+    "reading": "ゆうえんちにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんちはありますか",
+    "reading": "ゆうえんちはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんちまであるいていけますか",
+    "reading": "ゆうえんちまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんちまでなんぷんですか",
+    "reading": "ゆうえんちまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんちまでちかいですか",
+    "reading": "ゆうえんちまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "ゆうえんちまでのちずはありますか",
+    "reading": "ゆうえんちまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえん",
+    "reading": "どうぶつえん",
+    "category": "location"
+  },
+  {
+    "text": "どうぶつえんはどこですか",
+    "reading": "どうぶつえんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえんにいきたいです",
+    "reading": "どうぶつえんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえんはありますか",
+    "reading": "どうぶつえんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえんまであるいていけますか",
+    "reading": "どうぶつえんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえんまでなんぷんですか",
+    "reading": "どうぶつえんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえんまでちかいですか",
+    "reading": "どうぶつえんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "どうぶつえんまでのちずはありますか",
+    "reading": "どうぶつえんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかん",
+    "reading": "すいぞくかん",
+    "category": "location"
+  },
+  {
+    "text": "すいぞくかんはどこですか",
+    "reading": "すいぞくかんはどこですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかんにいきたいです",
+    "reading": "すいぞくかんにいきたいです",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかんはありますか",
+    "reading": "すいぞくかんはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかんまであるいていけますか",
+    "reading": "すいぞくかんまであるいていけますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかんまでなんぷんですか",
+    "reading": "すいぞくかんまでなんぷんですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかんまでちかいですか",
+    "reading": "すいぞくかんまでちかいですか",
+    "category": "navigation"
+  },
+  {
+    "text": "すいぞくかんまでのちずはありますか",
+    "reading": "すいぞくかんまでのちずはありますか",
+    "category": "navigation"
+  },
+  {
+    "text": "すし",
+    "reading": "すし",
+    "category": "food"
+  },
+  {
+    "text": "すしをください",
+    "reading": "すしをください",
+    "category": "food"
+  },
+  {
+    "text": "すしはありますか",
+    "reading": "すしはありますか",
+    "category": "food"
+  },
+  {
+    "text": "すしをひとつください",
+    "reading": "すしをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "すしはおいしいですか",
+    "reading": "すしはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "すしをおすすめしますか",
+    "reading": "すしをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "すしはからいですか",
+    "reading": "すしはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "すしはあついですか",
+    "reading": "すしはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "さしみ",
+    "reading": "さしみ",
+    "category": "food"
+  },
+  {
+    "text": "さしみをください",
+    "reading": "さしみをください",
+    "category": "food"
+  },
+  {
+    "text": "さしみはありますか",
+    "reading": "さしみはありますか",
+    "category": "food"
+  },
+  {
+    "text": "さしみをひとつください",
+    "reading": "さしみをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "さしみはおいしいですか",
+    "reading": "さしみはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "さしみをおすすめしますか",
+    "reading": "さしみをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "さしみはからいですか",
+    "reading": "さしみはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "さしみはあついですか",
+    "reading": "さしみはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "てんぷら",
+    "reading": "てんぷら",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらをください",
+    "reading": "てんぷらをください",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらはありますか",
+    "reading": "てんぷらはありますか",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらをひとつください",
+    "reading": "てんぷらをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらはおいしいですか",
+    "reading": "てんぷらはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらをおすすめしますか",
+    "reading": "てんぷらをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらはからいですか",
+    "reading": "てんぷらはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "てんぷらはあついですか",
+    "reading": "てんぷらはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "らーめん",
+    "reading": "らーめん",
+    "category": "food"
+  },
+  {
+    "text": "らーめんをください",
+    "reading": "らーめんをください",
+    "category": "food"
+  },
+  {
+    "text": "らーめんはありますか",
+    "reading": "らーめんはありますか",
+    "category": "food"
+  },
+  {
+    "text": "らーめんをひとつください",
+    "reading": "らーめんをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "らーめんはおいしいですか",
+    "reading": "らーめんはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "らーめんをおすすめしますか",
+    "reading": "らーめんをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "らーめんはからいですか",
+    "reading": "らーめんはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "らーめんはあついですか",
+    "reading": "らーめんはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "うどん",
+    "reading": "うどん",
+    "category": "food"
+  },
+  {
+    "text": "うどんをください",
+    "reading": "うどんをください",
+    "category": "food"
+  },
+  {
+    "text": "うどんはありますか",
+    "reading": "うどんはありますか",
+    "category": "food"
+  },
+  {
+    "text": "うどんをひとつください",
+    "reading": "うどんをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "うどんはおいしいですか",
+    "reading": "うどんはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "うどんをおすすめしますか",
+    "reading": "うどんをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "うどんはからいですか",
+    "reading": "うどんはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "うどんはあついですか",
+    "reading": "うどんはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "そば",
+    "reading": "そば",
+    "category": "food"
+  },
+  {
+    "text": "そばをください",
+    "reading": "そばをください",
+    "category": "food"
+  },
+  {
+    "text": "そばはありますか",
+    "reading": "そばはありますか",
+    "category": "food"
+  },
+  {
+    "text": "そばをひとつください",
+    "reading": "そばをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "そばはおいしいですか",
+    "reading": "そばはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "そばをおすすめしますか",
+    "reading": "そばをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "そばはからいですか",
+    "reading": "そばはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "そばはあついですか",
+    "reading": "そばはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "おにぎり",
+    "reading": "おにぎり",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりをください",
+    "reading": "おにぎりをください",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりはありますか",
+    "reading": "おにぎりはありますか",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりをひとつください",
+    "reading": "おにぎりをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりはおいしいですか",
+    "reading": "おにぎりはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりをおすすめしますか",
+    "reading": "おにぎりをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりはからいですか",
+    "reading": "おにぎりはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "おにぎりはあついですか",
+    "reading": "おにぎりはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "かれー",
+    "reading": "かれー",
+    "category": "food"
+  },
+  {
+    "text": "かれーをください",
+    "reading": "かれーをください",
+    "category": "food"
+  },
+  {
+    "text": "かれーはありますか",
+    "reading": "かれーはありますか",
+    "category": "food"
+  },
+  {
+    "text": "かれーをひとつください",
+    "reading": "かれーをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "かれーはおいしいですか",
+    "reading": "かれーはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "かれーをおすすめしますか",
+    "reading": "かれーをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "かれーはからいですか",
+    "reading": "かれーはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "かれーはあついですか",
+    "reading": "かれーはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "やきとり",
+    "reading": "やきとり",
+    "category": "food"
+  },
+  {
+    "text": "やきとりをください",
+    "reading": "やきとりをください",
+    "category": "food"
+  },
+  {
+    "text": "やきとりはありますか",
+    "reading": "やきとりはありますか",
+    "category": "food"
+  },
+  {
+    "text": "やきとりをひとつください",
+    "reading": "やきとりをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "やきとりはおいしいですか",
+    "reading": "やきとりはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "やきとりをおすすめしますか",
+    "reading": "やきとりをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "やきとりはからいですか",
+    "reading": "やきとりはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "やきとりはあついですか",
+    "reading": "やきとりはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざ",
+    "reading": "ぎょうざ",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざをください",
+    "reading": "ぎょうざをください",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざはありますか",
+    "reading": "ぎょうざはありますか",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざをひとつください",
+    "reading": "ぎょうざをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざはおいしいですか",
+    "reading": "ぎょうざはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざをおすすめしますか",
+    "reading": "ぎょうざをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざはからいですか",
+    "reading": "ぎょうざはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "ぎょうざはあついですか",
+    "reading": "ぎょうざはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやき",
+    "reading": "おこのみやき",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきをください",
+    "reading": "おこのみやきをください",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきはありますか",
+    "reading": "おこのみやきはありますか",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきをひとつください",
+    "reading": "おこのみやきをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきはおいしいですか",
+    "reading": "おこのみやきはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきをおすすめしますか",
+    "reading": "おこのみやきをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきはからいですか",
+    "reading": "おこのみやきはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "おこのみやきはあついですか",
+    "reading": "おこのみやきはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "たこやき",
+    "reading": "たこやき",
+    "category": "food"
+  },
+  {
+    "text": "たこやきをください",
+    "reading": "たこやきをください",
+    "category": "food"
+  },
+  {
+    "text": "たこやきはありますか",
+    "reading": "たこやきはありますか",
+    "category": "food"
+  },
+  {
+    "text": "たこやきをひとつください",
+    "reading": "たこやきをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "たこやきはおいしいですか",
+    "reading": "たこやきはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "たこやきをおすすめしますか",
+    "reading": "たこやきをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "たこやきはからいですか",
+    "reading": "たこやきはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "たこやきはあついですか",
+    "reading": "たこやきはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "やきにく",
+    "reading": "やきにく",
+    "category": "food"
+  },
+  {
+    "text": "やきにくをください",
+    "reading": "やきにくをください",
+    "category": "food"
+  },
+  {
+    "text": "やきにくはありますか",
+    "reading": "やきにくはありますか",
+    "category": "food"
+  },
+  {
+    "text": "やきにくをひとつください",
+    "reading": "やきにくをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "やきにくはおいしいですか",
+    "reading": "やきにくはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "やきにくをおすすめしますか",
+    "reading": "やきにくをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "やきにくはからいですか",
+    "reading": "やきにくはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "やきにくはあついですか",
+    "reading": "やきにくはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどん",
+    "reading": "ぎゅうどん",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんをください",
+    "reading": "ぎゅうどんをください",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんはありますか",
+    "reading": "ぎゅうどんはありますか",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんをひとつください",
+    "reading": "ぎゅうどんをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんはおいしいですか",
+    "reading": "ぎゅうどんはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんをおすすめしますか",
+    "reading": "ぎゅうどんをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんはからいですか",
+    "reading": "ぎゅうどんはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "ぎゅうどんはあついですか",
+    "reading": "ぎゅうどんはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "とんかつ",
+    "reading": "とんかつ",
+    "category": "food"
+  },
+  {
+    "text": "とんかつをください",
+    "reading": "とんかつをください",
+    "category": "food"
+  },
+  {
+    "text": "とんかつはありますか",
+    "reading": "とんかつはありますか",
+    "category": "food"
+  },
+  {
+    "text": "とんかつをひとつください",
+    "reading": "とんかつをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "とんかつはおいしいですか",
+    "reading": "とんかつはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "とんかつをおすすめしますか",
+    "reading": "とんかつをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "とんかつはからいですか",
+    "reading": "とんかつはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "とんかつはあついですか",
+    "reading": "とんかつはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "からあげ",
+    "reading": "からあげ",
+    "category": "food"
+  },
+  {
+    "text": "からあげをください",
+    "reading": "からあげをください",
+    "category": "food"
+  },
+  {
+    "text": "からあげはありますか",
+    "reading": "からあげはありますか",
+    "category": "food"
+  },
+  {
+    "text": "からあげをひとつください",
+    "reading": "からあげをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "からあげはおいしいですか",
+    "reading": "からあげはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "からあげをおすすめしますか",
+    "reading": "からあげをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "からあげはからいですか",
+    "reading": "からあげはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "からあげはあついですか",
+    "reading": "からあげはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "おでん",
+    "reading": "おでん",
+    "category": "food"
+  },
+  {
+    "text": "おでんをください",
+    "reading": "おでんをください",
+    "category": "food"
+  },
+  {
+    "text": "おでんはありますか",
+    "reading": "おでんはありますか",
+    "category": "food"
+  },
+  {
+    "text": "おでんをひとつください",
+    "reading": "おでんをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "おでんはおいしいですか",
+    "reading": "おでんはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "おでんをおすすめしますか",
+    "reading": "おでんをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "おでんはからいですか",
+    "reading": "おでんはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "おでんはあついですか",
+    "reading": "おでんはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはん",
+    "reading": "ちゃーはん",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんをください",
+    "reading": "ちゃーはんをください",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんはありますか",
+    "reading": "ちゃーはんはありますか",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんをひとつください",
+    "reading": "ちゃーはんをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんはおいしいですか",
+    "reading": "ちゃーはんはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんをおすすめしますか",
+    "reading": "ちゃーはんをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんはからいですか",
+    "reading": "ちゃーはんはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "ちゃーはんはあついですか",
+    "reading": "ちゃーはんはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "みそしる",
+    "reading": "みそしる",
+    "category": "food"
+  },
+  {
+    "text": "みそしるをください",
+    "reading": "みそしるをください",
+    "category": "food"
+  },
+  {
+    "text": "みそしるはありますか",
+    "reading": "みそしるはありますか",
+    "category": "food"
+  },
+  {
+    "text": "みそしるをひとつください",
+    "reading": "みそしるをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "みそしるはおいしいですか",
+    "reading": "みそしるはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "みそしるをおすすめしますか",
+    "reading": "みそしるをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "みそしるはからいですか",
+    "reading": "みそしるはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "みそしるはあついですか",
+    "reading": "みそしるはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "さけ",
+    "reading": "さけ",
+    "category": "food"
+  },
+  {
+    "text": "さけをください",
+    "reading": "さけをください",
+    "category": "food"
+  },
+  {
+    "text": "さけはありますか",
+    "reading": "さけはありますか",
+    "category": "food"
+  },
+  {
+    "text": "さけをひとつください",
+    "reading": "さけをひとつください",
+    "category": "food"
+  },
+  {
+    "text": "さけはおいしいですか",
+    "reading": "さけはおいしいですか",
+    "category": "food"
+  },
+  {
+    "text": "さけをおすすめしますか",
+    "reading": "さけをおすすめしますか",
+    "category": "food"
+  },
+  {
+    "text": "さけはからいですか",
+    "reading": "さけはからいですか",
+    "category": "food"
+  },
+  {
+    "text": "さけはあついですか",
+    "reading": "さけはあついですか",
+    "category": "food"
+  },
+  {
+    "text": "みず",
+    "reading": "みず",
+    "category": "drink"
+  },
+  {
+    "text": "みずをください",
+    "reading": "みずをください",
+    "category": "drink"
+  },
+  {
+    "text": "みずをひとつください",
+    "reading": "みずをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "みずはありますか",
+    "reading": "みずはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "みずはつめたいですか",
+    "reading": "みずはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "みずはあたたかいですか",
+    "reading": "みずはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "おちゃ",
+    "reading": "おちゃ",
+    "category": "drink"
+  },
+  {
+    "text": "おちゃをひとつください",
+    "reading": "おちゃをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "おちゃはありますか",
+    "reading": "おちゃはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "おちゃはつめたいですか",
+    "reading": "おちゃはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "おちゃはあたたかいですか",
+    "reading": "おちゃはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "こうちゃ",
+    "reading": "こうちゃ",
+    "category": "drink"
+  },
+  {
+    "text": "こうちゃをください",
+    "reading": "こうちゃをください",
+    "category": "drink"
+  },
+  {
+    "text": "こうちゃをひとつください",
+    "reading": "こうちゃをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "こうちゃはありますか",
+    "reading": "こうちゃはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "こうちゃはつめたいですか",
+    "reading": "こうちゃはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "こうちゃはあたたかいですか",
+    "reading": "こうちゃはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "こーひー",
+    "reading": "こーひー",
+    "category": "drink"
+  },
+  {
+    "text": "こーひーをください",
+    "reading": "こーひーをください",
+    "category": "drink"
+  },
+  {
+    "text": "こーひーをひとつください",
+    "reading": "こーひーをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "こーひーはありますか",
+    "reading": "こーひーはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "こーひーはつめたいですか",
+    "reading": "こーひーはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "こーひーはあたたかいですか",
+    "reading": "こーひーはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "じゅーす",
+    "reading": "じゅーす",
+    "category": "drink"
+  },
+  {
+    "text": "じゅーすをください",
+    "reading": "じゅーすをください",
+    "category": "drink"
+  },
+  {
+    "text": "じゅーすをひとつください",
+    "reading": "じゅーすをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "じゅーすはありますか",
+    "reading": "じゅーすはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "じゅーすはつめたいですか",
+    "reading": "じゅーすはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "じゅーすはあたたかいですか",
+    "reading": "じゅーすはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "びーる",
+    "reading": "びーる",
+    "category": "drink"
+  },
+  {
+    "text": "びーるをください",
+    "reading": "びーるをください",
+    "category": "drink"
+  },
+  {
+    "text": "びーるをひとつください",
+    "reading": "びーるをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "びーるはありますか",
+    "reading": "びーるはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "びーるはつめたいですか",
+    "reading": "びーるはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "びーるはあたたかいですか",
+    "reading": "びーるはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "にほんしゅ",
+    "reading": "にほんしゅ",
+    "category": "drink"
+  },
+  {
+    "text": "にほんしゅをください",
+    "reading": "にほんしゅをください",
+    "category": "drink"
+  },
+  {
+    "text": "にほんしゅをひとつください",
+    "reading": "にほんしゅをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "にほんしゅはありますか",
+    "reading": "にほんしゅはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "にほんしゅはつめたいですか",
+    "reading": "にほんしゅはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "にほんしゅはあたたかいですか",
+    "reading": "にほんしゅはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "うーろんちゃ",
+    "reading": "うーろんちゃ",
+    "category": "drink"
+  },
+  {
+    "text": "うーろんちゃをください",
+    "reading": "うーろんちゃをください",
+    "category": "drink"
+  },
+  {
+    "text": "うーろんちゃをひとつください",
+    "reading": "うーろんちゃをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "うーろんちゃはありますか",
+    "reading": "うーろんちゃはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "うーろんちゃはつめたいですか",
+    "reading": "うーろんちゃはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "うーろんちゃはあたたかいですか",
+    "reading": "うーろんちゃはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "れもんさわー",
+    "reading": "れもんさわー",
+    "category": "drink"
+  },
+  {
+    "text": "れもんさわーをください",
+    "reading": "れもんさわーをください",
+    "category": "drink"
+  },
+  {
+    "text": "れもんさわーをひとつください",
+    "reading": "れもんさわーをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "れもんさわーはありますか",
+    "reading": "れもんさわーはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "れもんさわーはつめたいですか",
+    "reading": "れもんさわーはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "れもんさわーはあたたかいですか",
+    "reading": "れもんさわーはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "みるく",
+    "reading": "みるく",
+    "category": "drink"
+  },
+  {
+    "text": "みるくをください",
+    "reading": "みるくをください",
+    "category": "drink"
+  },
+  {
+    "text": "みるくをひとつください",
+    "reading": "みるくをひとつください",
+    "category": "drink"
+  },
+  {
+    "text": "みるくはありますか",
+    "reading": "みるくはありますか",
+    "category": "drink"
+  },
+  {
+    "text": "みるくはつめたいですか",
+    "reading": "みるくはつめたいですか",
+    "category": "drink"
+  },
+  {
+    "text": "みるくはあたたかいですか",
+    "reading": "みるくはあたたかいですか",
+    "category": "drink"
+  },
+  {
+    "text": "おみやげ",
+    "reading": "おみやげ",
+    "category": "shopping"
+  },
+  {
+    "text": "おみやげはありますか",
+    "reading": "おみやげはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "おみやげをみせてください",
+    "reading": "おみやげをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "おみやげをください",
+    "reading": "おみやげをください",
+    "category": "shopping"
+  },
+  {
+    "text": "おみやげはいくらですか",
+    "reading": "おみやげはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "おみやげのやすいものはありますか",
+    "reading": "おみやげのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "おみやげのちいさいさいずはありますか",
+    "reading": "おみやげのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "ふく",
+    "reading": "ふく",
+    "category": "shopping"
+  },
+  {
+    "text": "ふくはありますか",
+    "reading": "ふくはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "ふくをみせてください",
+    "reading": "ふくをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "ふくをください",
+    "reading": "ふくをください",
+    "category": "shopping"
+  },
+  {
+    "text": "ふくはいくらですか",
+    "reading": "ふくはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "ふくのやすいものはありますか",
+    "reading": "ふくのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "ふくのちいさいさいずはありますか",
+    "reading": "ふくのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "くつ",
+    "reading": "くつ",
+    "category": "shopping"
+  },
+  {
+    "text": "くつはありますか",
+    "reading": "くつはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "くつをみせてください",
+    "reading": "くつをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "くつをください",
+    "reading": "くつをください",
+    "category": "shopping"
+  },
+  {
+    "text": "くつはいくらですか",
+    "reading": "くつはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "くつのやすいものはありますか",
+    "reading": "くつのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "くつのちいさいさいずはありますか",
+    "reading": "くつのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かばん",
+    "reading": "かばん",
+    "category": "shopping"
+  },
+  {
+    "text": "かばんはありますか",
+    "reading": "かばんはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かばんをみせてください",
+    "reading": "かばんをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "かばんをください",
+    "reading": "かばんをください",
+    "category": "shopping"
+  },
+  {
+    "text": "かばんはいくらですか",
+    "reading": "かばんはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "かばんのやすいものはありますか",
+    "reading": "かばんのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かばんのちいさいさいずはありますか",
+    "reading": "かばんのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かさ",
+    "reading": "かさ",
+    "category": "shopping"
+  },
+  {
+    "text": "かさはありますか",
+    "reading": "かさはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かさをみせてください",
+    "reading": "かさをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "かさをください",
+    "reading": "かさをください",
+    "category": "shopping"
+  },
+  {
+    "text": "かさはいくらですか",
+    "reading": "かさはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "かさのやすいものはありますか",
+    "reading": "かさのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かさのちいさいさいずはありますか",
+    "reading": "かさのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "でんち",
+    "reading": "でんち",
+    "category": "shopping"
+  },
+  {
+    "text": "でんちはありますか",
+    "reading": "でんちはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "でんちをみせてください",
+    "reading": "でんちをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "でんちをください",
+    "reading": "でんちをください",
+    "category": "shopping"
+  },
+  {
+    "text": "でんちはいくらですか",
+    "reading": "でんちはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "でんちのやすいものはありますか",
+    "reading": "でんちのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "でんちのちいさいさいずはありますか",
+    "reading": "でんちのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりー",
+    "reading": "もばいるばってりー",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりーはありますか",
+    "reading": "もばいるばってりーはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりーをみせてください",
+    "reading": "もばいるばってりーをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりーをください",
+    "reading": "もばいるばってりーをください",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりーはいくらですか",
+    "reading": "もばいるばってりーはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりーのやすいものはありますか",
+    "reading": "もばいるばってりーのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "もばいるばってりーのちいさいさいずはありますか",
+    "reading": "もばいるばってりーのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとう",
+    "reading": "すいとう",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとうはありますか",
+    "reading": "すいとうはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとうをみせてください",
+    "reading": "すいとうをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとうをください",
+    "reading": "すいとうをください",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとうはいくらですか",
+    "reading": "すいとうはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとうのやすいものはありますか",
+    "reading": "すいとうのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "すいとうのちいさいさいずはありますか",
+    "reading": "すいとうのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷ",
+    "reading": "まっぷ",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷはありますか",
+    "reading": "まっぷはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷをみせてください",
+    "reading": "まっぷをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷをください",
+    "reading": "まっぷをください",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷはいくらですか",
+    "reading": "まっぷはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷのやすいものはありますか",
+    "reading": "まっぷのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "まっぷのちいさいさいずはありますか",
+    "reading": "まっぷのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっぷ",
+    "reading": "きっぷ",
+    "category": "shopping"
+  },
+  {
+    "text": "きっぷはありますか",
+    "reading": "きっぷはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっぷをみせてください",
+    "reading": "きっぷをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "きっぷはいくらですか",
+    "reading": "きっぷはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっぷのやすいものはありますか",
+    "reading": "きっぷのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっぷのちいさいさいずはありますか",
+    "reading": "きっぷのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かーど",
+    "reading": "かーど",
+    "category": "shopping"
+  },
+  {
+    "text": "かーどはありますか",
+    "reading": "かーどはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かーどをみせてください",
+    "reading": "かーどをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "かーどをください",
+    "reading": "かーどをください",
+    "category": "shopping"
+  },
+  {
+    "text": "かーどはいくらですか",
+    "reading": "かーどはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "かーどのやすいものはありますか",
+    "reading": "かーどのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "かーどのちいさいさいずはありますか",
+    "reading": "かーどのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーす",
+    "reading": "すまーとふぉんけーす",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーすはありますか",
+    "reading": "すまーとふぉんけーすはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーすをみせてください",
+    "reading": "すまーとふぉんけーすをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーすをください",
+    "reading": "すまーとふぉんけーすをください",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーすはいくらですか",
+    "reading": "すまーとふぉんけーすはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーすのやすいものはありますか",
+    "reading": "すまーとふぉんけーすのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "すまーとふぉんけーすのちいさいさいずはありますか",
+    "reading": "すまーとふぉんけーすのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷ",
+    "reading": "しんかんせんきっぷ",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷはありますか",
+    "reading": "しんかんせんきっぷはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷをみせてください",
+    "reading": "しんかんせんきっぷをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷをください",
+    "reading": "しんかんせんきっぷをください",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷはいくらですか",
+    "reading": "しんかんせんきっぷはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷのやすいものはありますか",
+    "reading": "しんかんせんきっぷのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "しんかんせんきっぷのちいさいさいずはありますか",
+    "reading": "しんかんせんきっぷのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっと",
+    "reading": "きっさてんちけっと",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっとはありますか",
+    "reading": "きっさてんちけっとはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっとをみせてください",
+    "reading": "きっさてんちけっとをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっとをください",
+    "reading": "きっさてんちけっとをください",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっとはいくらですか",
+    "reading": "きっさてんちけっとはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっとのやすいものはありますか",
+    "reading": "きっさてんちけっとのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "きっさてんちけっとのちいさいさいずはありますか",
+    "reading": "きっさてんちけっとのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかた",
+    "reading": "ゆかた",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかたはありますか",
+    "reading": "ゆかたはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかたをみせてください",
+    "reading": "ゆかたをみせてください",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかたをください",
+    "reading": "ゆかたをください",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかたはいくらですか",
+    "reading": "ゆかたはいくらですか",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかたのやすいものはありますか",
+    "reading": "ゆかたのやすいものはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "ゆかたのちいさいさいずはありますか",
+    "reading": "ゆかたのちいさいさいずはありますか",
+    "category": "shopping"
+  },
+  {
+    "text": "おいしい",
+    "reading": "おいしい",
+    "category": "descriptor"
+  },
+  {
+    "text": "えきはおいしいです",
+    "reading": "えきはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "くうこうはおいしいです",
+    "reading": "くうこうはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "ばすていはおいしいです",
+    "reading": "ばすていはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "ちかてつはおいしいです",
+    "reading": "ちかてつはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "ほてるはおいしいです",
+    "reading": "ほてるはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "りょかんはおいしいです",
+    "reading": "りょかんはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "といれはおいしいです",
+    "reading": "といれはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "こんびにはおいしいです",
+    "reading": "こんびにはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "すーぱーはおいしいです",
+    "reading": "すーぱーはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "やっきょくはおいしいです",
+    "reading": "やっきょくはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "びょういんはおいしいです",
+    "reading": "びょういんはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "こうばんはおいしいです",
+    "reading": "こうばんはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "ぎんこうはおいしいです",
+    "reading": "ぎんこうはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "ゆうびんきょくはおいしいです",
+    "reading": "ゆうびんきょくはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "かふぇはおいしいです",
+    "reading": "かふぇはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "きっさてんはおいしいです",
+    "reading": "きっさてんはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "れすとらんはおいしいです",
+    "reading": "れすとらんはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "いざかやはおいしいです",
+    "reading": "いざかやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "すしやはおいしいです",
+    "reading": "すしやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "らーめんやはおいしいです",
+    "reading": "らーめんやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "うどんやはおいしいです",
+    "reading": "うどんやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "ぎゅうどんやはおいしいです",
+    "reading": "ぎゅうどんやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "やきにくやはおいしいです",
+    "reading": "やきにくやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "でぱーとはおいしいです",
+    "reading": "でぱーとはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "どらっぐすとあはおいしいです",
+    "reading": "どらっぐすとあはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "どんきほーてはおいしいです",
+    "reading": "どんきほーてはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "でんきやはおいしいです",
+    "reading": "でんきやはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "おてらはおいしいです",
+    "reading": "おてらはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "じんじゃはおいしいです",
+    "reading": "じんじゃはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "びじゅつかんはおいしいです",
+    "reading": "びじゅつかんはおいしいです",
+    "category": "descriptor"
+  },
+  {
+    "text": "はくぶつかんはおいしいです",
+    "reading": "はくぶつかんはおいしいです",
+    "category": "descriptor"
+  }
+]

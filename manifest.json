@@ -1,0 +1,17 @@
+{
+  "name": "注音日文鍵盤 PWA",
+  "short_name": "注日鍵盤",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f7ff",
+  "theme_color": "#2f6fed",
+  "icons": [
+    {
+      "src": "./icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
