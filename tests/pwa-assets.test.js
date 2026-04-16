@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 
 const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
 const css = await readFile(new URL("../style.css", import.meta.url), "utf8");
@@ -28,6 +28,12 @@ test("manifest locks portrait mode with standalone chrome colors", () => {
   assert.equal(typeof manifest.name, "string");
   assert.equal(typeof manifest.short_name, "string");
   assert.equal(typeof manifest.theme_color, "string");
+
+  const pngIcons = manifest.icons.filter((icon) => icon.type === "image/png");
+  assert.deepEqual(
+    pngIcons.map((icon) => icon.sizes).sort(),
+    ["192x192", "512x512"],
+  );
 });
 
 test("service worker caches all static assets for offline use", () => {
@@ -36,7 +42,17 @@ test("service worker caches all static assets for offline use", () => {
   assert.match(swJs, /app\.js/);
   assert.match(swJs, /data\/phonetic-map\.json/);
   assert.match(swJs, /data\/candidates\.json/);
+  assert.match(swJs, /icons\/app-icon-192\.png/);
+  assert.match(swJs, /icons\/app-icon-512\.png/);
   assert.match(appJs, /serviceWorker\.register/);
+});
+
+test("installable PNG icons exist for both 192 and 512 sizes", async () => {
+  const icon192 = await stat(new URL("../icons/app-icon-192.png", import.meta.url));
+  const icon512 = await stat(new URL("../icons/app-icon-512.png", import.meta.url));
+
+  assert.ok(icon192.size > 0);
+  assert.ok(icon512.size > 0);
 });
 
 test("styles enforce safe-area, responsive layout, and candidate rail affordances", () => {

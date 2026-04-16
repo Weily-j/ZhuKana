@@ -1,4 +1,4 @@
-const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v1";
+const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v2";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -8,6 +8,8 @@ const STATIC_ASSETS = [
   "./manifest.json",
   "./data/phonetic-map.json",
   "./data/candidates.json",
+  "./icons/app-icon-192.png",
+  "./icons/app-icon-512.png",
   "./icons/app-icon.svg",
 ];
 
