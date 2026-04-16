@@ -62,7 +62,7 @@ button {
 .app-shell {
   position: relative;
   display: grid;
-  grid-template-rows: 27% 44px 1fr;
+  grid-template-rows: minmax(200px, auto) 44px 1fr;
   gap: 12px;
   min-height: 100dvh;
   padding:
@@ -175,6 +175,7 @@ button {
 .text-display {
   position: relative;
   overflow: auto;
+  min-height: 80px;
   padding: 16px 18px;
   border: 1px solid rgba(22, 35, 59, 0.08);
   border-radius: var(--radius-md);
@@ -531,6 +532,21 @@ button {
 
   .keyboard-key {
     padding-inline: 4px;
+  }
+}
+
+@media (max-height: 680px) {
+  .app-shell {
+    gap: 6px;
+  }
+
+  .panel-heading {
+    margin-bottom: 4px;
+  }
+
+  .text-display {
+    min-height: 56px;
+    font-size: 1rem;
   }
 }
 
