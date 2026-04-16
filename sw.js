@@ -1,4 +1,4 @@
-const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v3";
+const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v4";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -38,23 +38,35 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  const requestUrl = new URL(event.request.url);
+  if (requestUrl.origin !== self.location.origin) {
+    return;
+  }
+
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-
-      return fetch(event.request)
-        .then((networkResponse) => {
-          if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
-            return networkResponse;
-          }
-
-          const responseToCache = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
           return networkResponse;
-        })
-        .catch(() => caches.match("./index.html"));
-    }),
+        }
+
+        const responseToCache = networkResponse.clone();
+        event.waitUntil(
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache)),
+        );
+        return networkResponse;
+      })
+      .catch(async () => {
+        const cachedResponse = await caches.match(event.request);
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+
+        if (event.request.mode === "navigate") {
+          return caches.match("./index.html");
+        }
+
+        throw new Error(`Offline and no cache entry for ${event.request.url}`);
+      }),
   );
 });

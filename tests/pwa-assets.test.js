@@ -47,6 +47,14 @@ test("service worker caches all static assets for offline use", () => {
   assert.match(appJs, /serviceWorker\.register/);
 });
 
+test("service worker uses network-first updates with offline fallback for same-origin requests", () => {
+  assert.match(swJs, /new URL\(event\.request\.url\)/);
+  assert.match(swJs, /requestUrl\.origin !== self\.location\.origin/);
+  assert.match(swJs, /fetch\(event\.request\)/);
+  assert.match(swJs, /cache\.put\(event\.request,\s*responseToCache\)/);
+  assert.match(swJs, /event\.request\.mode === "navigate"/);
+});
+
 test("installable PNG icons exist for both 192 and 512 sizes", async () => {
   const icon192 = await stat(new URL("../icons/app-icon-192.png", import.meta.url));
   const icon512 = await stat(new URL("../icons/app-icon-512.png", import.meta.url));
