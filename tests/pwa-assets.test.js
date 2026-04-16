@@ -30,10 +30,16 @@ test("manifest locks portrait mode with standalone chrome colors", () => {
   assert.equal(typeof manifest.theme_color, "string");
 
   const pngIcons = manifest.icons.filter((icon) => icon.type === "image/png");
-  assert.deepEqual(
-    pngIcons.map((icon) => icon.sizes).sort(),
-    ["192x192", "512x512"],
-  );
+  const pngSizes = [...new Set(pngIcons.map((icon) => icon.sizes))].sort();
+  assert.deepEqual(pngSizes, ["192x192", "512x512"]);
+  // each size must have both "any" and "maskable" purpose entries
+  for (const size of ["192x192", "512x512"]) {
+    const purposes = pngIcons
+      .filter((icon) => icon.sizes === size)
+      .map((icon) => icon.purpose)
+      .sort();
+    assert.deepEqual(purposes, ["any", "maskable"]);
+  }
 });
 
 test("service worker caches all static assets for offline use", () => {

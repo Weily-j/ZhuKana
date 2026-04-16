@@ -1,4 +1,4 @@
-const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v5";
+const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v6";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
