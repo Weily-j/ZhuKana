@@ -75,4 +75,4 @@
 - [ ] 10.2 在 Android Chrome 完整測試震動回饋、分享功能
 - [ ] 10.3 PWA 加至主畫面測試（iOS Add to Home Screen、Android 安裝提示）
 - [x] 10.4 離線測試：關閉網路後重新開啟，確認 Service Worker 快取生效
-- [ ] 10.5 部署至靜態主機（Vercel 或 GitHub Pages）
+- [x] 10.5 部署至靜態主機（Vercel 或 GitHub Pages）
