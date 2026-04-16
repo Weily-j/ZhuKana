@@ -168,11 +168,8 @@ const shopping = [
   "ゆかた",
 ];
 
-const adjectives = [
-  "おいしい",
-  "あつい",
-  "つめたい",
-  "あたたかい",
+// 適用於地點的形容詞（不包含食物相關描述）
+const locationAdjectives = [
   "やすい",
   "たかい",
   "ちいさい",
@@ -182,6 +179,20 @@ const adjectives = [
   "きれい",
   "べんり",
 ];
+
+// 適用於食物／飲料的形容詞
+const foodAdjectives = [
+  "おいしい",
+  "あつい",
+  "つめたい",
+  "あたたかい",
+  "やすい",
+  "たかい",
+  "からい",
+];
+
+// 全部合併供其他用途（如單字候補）
+const adjectives = [...new Set([...locationAdjectives, ...foodAdjectives])];
 
 const quantities = [
   "ひとつ",
@@ -253,13 +264,21 @@ shopping.forEach((item) => {
   add(`${item}のちいさいさいずはありますか`, "shopping");
 });
 
-adjectives.forEach((word) => {
+// 地點形容詞：只用 locationAdjectives 避免「車站很好吃」等語意錯誤
+locationAdjectives.forEach((word) => {
   add(word, "descriptor");
   locations.forEach((location) => {
     add(`${location}は${word}です`, "descriptor");
   });
+});
+
+// 食物形容詞：只套用到食物／飲料
+foodAdjectives.forEach((word) => {
   foods.forEach((food) => {
     add(`${food}は${word}です`, "descriptor");
+  });
+  drinks.forEach((drink) => {
+    add(`${drink}は${word}です`, "descriptor");
   });
 });
 

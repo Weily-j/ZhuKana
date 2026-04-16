@@ -65,6 +65,7 @@ let phoneticMap = null;
 let candidates = [];
 let currentCandidatePage = { items: [], hasMore: false, total: 0, pageSize: CANDIDATE_PAGE_SIZE };
 let toastTimer = null;
+let feedbackTimer = null;
 let activeTouch = null;
 let clearHoldTimer = null;
 let clearHoldInterval = null;
@@ -332,11 +333,15 @@ function commitRowInput(rowId, direction) {
 
 function bindOutputActions() {
   elements.copyButton.addEventListener("click", () => {
-    void copyText();
+    copyText().catch(() => showToast("複製失敗，請手動選取複製"));
   });
 
   elements.shareButton.addEventListener("click", () => {
-    void shareText();
+    shareText().catch((err) => {
+      if (err?.name !== "AbortError") {
+        showToast("分享失敗，請重試");
+      }
+    });
   });
 
   const startHold = (event) => {
@@ -470,8 +475,8 @@ function insertNextPunctuation() {
 }
 
 function clearAllText() {
-  appState = createInitialState();
-  appState.mode = "hiragana";
+  const currentMode = appState.mode;
+  appState = { ...createInitialState(), mode: currentMode };
   render();
   showToast("已清除全部文字");
 }
@@ -622,8 +627,8 @@ function setActionDisabled(actionId, disabled) {
 
 function setFeedback(message) {
   elements.feedbackMessage.textContent = message;
-  window.clearTimeout(elements.feedbackMessage._clearTimer);
-  elements.feedbackMessage._clearTimer = window.setTimeout(() => {
+  window.clearTimeout(feedbackTimer);
+  feedbackTimer = window.setTimeout(() => {
     elements.feedbackMessage.textContent = "";
   }, 1800);
 }
