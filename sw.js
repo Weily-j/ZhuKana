@@ -1,4 +1,4 @@
-const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v4";
+const CACHE_NAME = "zhuyin-jp-keyboard-pwa-v5";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -46,13 +46,13 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     fetch(event.request)
       .then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
+        if (networkResponse.status !== 200) {
           return networkResponse;
         }
 
         const responseToCache = networkResponse.clone();
         event.waitUntil(
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache)),
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache)).catch(() => {}),
         );
         return networkResponse;
       })
@@ -63,7 +63,8 @@ self.addEventListener("fetch", (event) => {
         }
 
         if (event.request.mode === "navigate") {
-          return caches.match("./index.html");
+          const fallback = await caches.match("./index.html");
+          if (fallback) return fallback;
         }
 
         throw new Error(`Offline and no cache entry for ${event.request.url}`);
