@@ -1,8 +1,5 @@
-# keyboard-layout Specification
+## MODIFIED Requirements
 
-## Purpose
-TBD - created by archiving change zhuyin-jp-keyboard-pwa. Update Purpose after archive.
-## Requirements
 ### Requirement: 九宮格鍵盤版面
 鍵盤 SHALL 以 4 欄 × 4 列的九宮格排列呈現，其中前 3 欄為假名主鍵（共 10 個行鍵）、第 4 欄為功能鍵。假名主鍵的行列位置 SHALL 與 iOS 日文標準九宮格完全一致，以確保肌肉記憶可遷移至真實日文鍵盤。
 
@@ -61,24 +58,8 @@ TBD - created by archiving change zhuyin-jp-keyboard-pwa. Update Purpose after a
 - **WHEN** 當前模式為片假名
 - **THEN** 平/片 鍵顯示標籤「片」，並套用 `keyboard-key--mode-active` 樣式（藍色背景）
 
-### Requirement: Safe Area 保護
-鍵盤底部 SHALL 預留 `env(safe-area-inset-bottom)` 空間，避免被手機 Home Bar 遮蔽。
+## REMOVED Requirements
 
-#### Scenario: iPhone 底部不被遮蔽
-- **WHEN** 在有 Home Bar 的 iPhone 上使用
-- **THEN** 最底排按鍵完整可見，不被 Home Bar 遮蔽
-
-### Requirement: 版面比例
-鍵盤 SHALL 佔螢幕高度的 55–65%，文字輸入區佔 25–30%，候補欄固定 44px。
-
-#### Scenario: 版面在常見手機尺寸正確顯示
-- **WHEN** 在 375px 寬度的手機上開啟（iPhone SE 尺寸）
-- **THEN** 鍵盤、候補欄、文字區均完整顯示且無溢出
-
-### Requirement: Portrait 方向鎖定
-PWA SHALL 鎖定直向（portrait）顯示模式。
-
-#### Scenario: 旋轉手機不改變版面
-- **WHEN** 使用者將手機橫放
-- **THEN** 介面維持直向，不切換為橫向佈局
-
+### Requirement: 功能鍵配置（舊）
+**Reason**: 移除 ABC、🌐、更多 ›、ん 獨立鍵、。、標點鍵，以對齊 iOS 九宮格標準並騰出鍵盤空間。ん 改由 わ行 flick → 方向輸入（與 iOS 一致）；候補次頁改用水平 scroll。
+**Migration**: handleAction 中的 `latin`、`globe`、`more`、`n`、`punct` case 可移除。

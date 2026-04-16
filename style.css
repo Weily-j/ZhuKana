@@ -338,7 +338,7 @@ button {
 
 .keyboard-grid {
   display: grid;
-  grid-template-columns: repeat(5, var(--key-size));
+  grid-template-columns: repeat(4, var(--key-size));
   grid-template-rows: repeat(4, minmax(0, 1fr));
   gap: 10px;
   height: 100%;

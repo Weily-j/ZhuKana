@@ -29,7 +29,7 @@ node scripts/generate-icon.mjs    # 重新產生 icons/app-icon-{192,512}.png
 
 ### State model
 
-`app.js` 維護單一 `appState` 物件（由 `createInitialState()` 建立），每次輸入事件以 spread 產生新 state（`appState = { ...appState, key: value }`），再呼叫 `render()` 更新 DOM。state 包含：`confirmed`（已確認文字）、`buffer`（組字中假名陣列）、`variantOrigins`（循環變音的 origin 追蹤）、`mode`（hiragana/katakana）、`candidatePage`。
+`app.js` 維護單一 `appState` 物件（由 `createInitialState()` 建立），每次輸入事件以 spread 產生新 state（`appState = { ...appState, key: value }`），再呼叫 `render()` 更新 DOM。state 包含：`confirmed`（已確認文字）、`buffer`（組字中假名陣列）、`variantOrigins`（循環變音的 origin 追蹤）、`mode`（hiragana/katakana）、`candidatePage`（候補分頁，目前 CANDIDATE_PAGE_SIZE=100 故恆為 0）。
 
 ### Service Worker
 
@@ -47,8 +47,6 @@ node scripts/generate-icon.mjs    # 重新產生 icons/app-icon-{192,512}.png
   - `~/.ssh/config` 中 `Host github-weily-j` 對應 `Weily-j` 帳號私鑰
 
 ## Pending (需實機驗證)
-
-詳見 `openspec/changes/archive/2026-04-16-zhuyin-jp-keyboard-pwa/tasks.md` 的 10.1–10.3：
 
 - iOS Safari：flick 輸入、複製、Safe Area
 - Android Chrome：震動回饋、分享功能

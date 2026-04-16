@@ -102,6 +102,21 @@ test("candidate pagination and selection follow kana prefix matching", () => {
   assert.deepEqual(selected.buffer, []);
 });
 
+test("wa row flick-right inputs ん/ン", () => {
+  const nHira = getKanaCell(phoneticMap, "wa", "right", "hiragana");
+  assert.equal(nHira.kana, "ん");
+  assert.equal(nHira.phonetic, "ㄣ");
+
+  const nKata = getKanaCell(phoneticMap, "wa", "right", "katakana");
+  assert.equal(nKata.kana, "ン");
+
+  const woHira = getKanaCell(phoneticMap, "wa", "left", "hiragana");
+  assert.equal(woHira.kana, "を");
+
+  const waUp = getKanaCell(phoneticMap, "wa", "up", "hiragana");
+  assert.equal(waUp.disabled, true);
+});
+
 test("toggleKanaMode and cycleKanaVariant support both scripts", () => {
   assert.equal(toggleKanaMode("hiragana"), "katakana");
   assert.equal(toggleKanaMode("katakana"), "hiragana");

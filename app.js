@@ -15,31 +15,26 @@ import {
   toggleKanaMode,
 } from "./lib/core.js";
 
-const CANDIDATE_PAGE_SIZE = 6;
+const CANDIDATE_PAGE_SIZE = 100; // show all matching candidates; rail is horizontally scrollable
 const CANDIDATE_HINT_KEY = "zhuyin-jp-keyboard-pwa:candidate-hint-used";
-const PUNCTUATION_SEQUENCE = ["。", "、", "？", "！", "ー"];
 
 const KEY_LAYOUT = [
   { type: "row", rowId: "a" },
-  { type: "row", rowId: "sa" },
-  { type: "row", rowId: "ta" },
   { type: "row", rowId: "ka" },
+  { type: "row", rowId: "sa" },
+  { type: "action", actionId: "backspace", label: "⌫", subLabel: "退格" },
+  { type: "row", rowId: "ta" },
   { type: "row", rowId: "na" },
   { type: "row", rowId: "ha" },
+  { type: "action", actionId: "confirm", label: "確定", subLabel: "送出" },
   { type: "row", rowId: "ma" },
   { type: "row", rowId: "ya" },
   { type: "row", rowId: "ra" },
-  { type: "row", rowId: "wa" },
-  { type: "action", actionId: "mode", label: "平/片", subLabel: "模式" },
-  { type: "action", actionId: "backspace", label: "⌫", subLabel: "退格" },
   { type: "action", actionId: "newline", label: "↵", subLabel: "換行" },
-  { type: "action", actionId: "latin", label: "ABC", subLabel: "英文" },
-  { type: "action", actionId: "voicing", label: "變音", subLabel: "゛゜小" },
-  { type: "action", actionId: "more", label: "更多 ›", subLabel: "候補" },
-  { type: "action", actionId: "confirm", label: "確定", subLabel: "送出" },
-  { type: "action", actionId: "globe", label: "🌐", subLabel: "語言" },
-  { type: "action", actionId: "n", label: "ㄣ(ん)", subLabel: "獨立" },
-  { type: "action", actionId: "punct", label: "。、?!", subLabel: "標點" },
+  { type: "action", actionId: "mode", label: "平", subLabel: "模式" },
+  { type: "row", rowId: "wa" },
+  { type: "action", actionId: "voicing", label: "変音", subLabel: "゛゜小" },
+  { type: "action", actionId: "space", label: "空白", subLabel: "\u3000" },
 ];
 
 const elements = {
@@ -403,26 +398,16 @@ function handleAction(actionId) {
       appState = appendConfirmedText(commitBuffer(appState), "\n");
       render();
       return;
-    case "latin":
-    case "globe":
-      showToast("Phase 1 先維持假名輸入，之後再擴充切換");
+    case "space":
+      appState = appendConfirmedText(commitBuffer(appState), "　");
+      render();
       return;
     case "voicing":
       mutateLastKana();
       return;
-    case "more":
-      showNextCandidatePage();
-      return;
     case "confirm":
       appState = commitBuffer(appState);
       render();
-      return;
-    case "n":
-      appState = applyKanaInput(appState, appState.mode === "katakana" ? "ン" : "ん");
-      render();
-      return;
-    case "punct":
-      insertNextPunctuation();
       return;
     default:
       return;
@@ -450,29 +435,6 @@ function mutateLastKana() {
   render();
 }
 
-function showNextCandidatePage() {
-  const bufferText = appState.buffer.join("");
-  if (!bufferText || currentCandidatePage.total <= currentCandidatePage.pageSize) {
-    return;
-  }
-
-  const nextPageIndex = currentCandidatePage.hasMore ? currentCandidatePage.page + 1 : 0;
-  appState = {
-    ...appState,
-    candidatePage: nextPageIndex,
-  };
-  render();
-}
-
-function insertNextPunctuation() {
-  const punctuation = PUNCTUATION_SEQUENCE[appState.punctuationIndex % PUNCTUATION_SEQUENCE.length];
-  appState = appendConfirmedText(commitBuffer(appState), punctuation);
-  appState = {
-    ...appState,
-    punctuationIndex: appState.punctuationIndex + 1,
-  };
-  render();
-}
 
 function clearAllText() {
   const currentMode = appState.mode;
@@ -594,8 +556,6 @@ function renderCandidates() {
 function renderButtons() {
   const text = getDisplayText(appState);
   const hasBuffer = appState.buffer.length > 0;
-  const hasCandidates = currentCandidatePage.total > currentCandidatePage.pageSize;
-
   elements.copyButton.disabled = !text;
   elements.shareButton.disabled = !text;
   elements.clearButton.disabled = !text;
@@ -603,18 +563,15 @@ function renderButtons() {
   setActionDisabled("backspace", !text);
   setActionDisabled("confirm", !hasBuffer);
   setActionDisabled("voicing", !hasBuffer);
-  setActionDisabled("more", !hasCandidates);
 
   const modeButton = actionButtons.get("mode");
   if (modeButton) {
-    modeButton.classList.toggle("keyboard-key--mode-active", appState.mode === "katakana");
-    modeButton.querySelector(".key-sub").textContent = appState.mode === "katakana" ? "片" : "平";
+    const isKatakana = appState.mode === "katakana";
+    modeButton.classList.toggle("keyboard-key--mode-active", isKatakana);
+    modeButton.querySelector(".key-main").textContent = isKatakana ? "片" : "平";
+    modeButton.querySelector(".key-sub").textContent = "模式";
   }
 
-  const nButton = actionButtons.get("n");
-  if (nButton) {
-    nButton.querySelector(".key-main").textContent = appState.mode === "katakana" ? "ㄣ(ン)" : "ㄣ(ん)";
-  }
 }
 
 function setActionDisabled(actionId, disabled) {

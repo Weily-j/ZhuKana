@@ -142,7 +142,7 @@
       "cells": {
         "tap": { "hiragana": "わ", "katakana": "ワ", "phonetic": "ㄨㄚ" },
         "up": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
-        "right": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
+        "right": { "hiragana": "ん", "katakana": "ン", "phonetic": "ㄣ" },
         "down": { "disabled": true, "hiragana": "", "katakana": "", "phonetic": "" },
         "left": {
           "hiragana": "を",
