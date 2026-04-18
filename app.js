@@ -339,6 +339,9 @@ function bindOutputActions() {
     });
   });
 
+  let holdStartedAt = 0;
+  const CLEAR_HINT_KEY = "zhuKana.clearHintShown";
+
   const startHold = (event) => {
     event.preventDefault();
     if (!getDisplayText(appState)) {
@@ -346,10 +349,10 @@ function bindOutputActions() {
     }
 
     clearHold();
-    const startedAt = Date.now();
+    holdStartedAt = Date.now();
 
     clearHoldInterval = window.setInterval(() => {
-      const progress = Math.min(1, (Date.now() - startedAt) / 500);
+      const progress = Math.min(1, (Date.now() - holdStartedAt) / 500);
       elements.clearButton.style.setProperty("--hold-progress", `${progress * 100}%`);
       if (progress >= 1) {
         clearAllText();
@@ -364,13 +367,39 @@ function bindOutputActions() {
   };
 
   const cancelHold = () => {
+    const elapsed = holdStartedAt ? Date.now() - holdStartedAt : 0;
+    const hadText = Boolean(getDisplayText(appState));
     clearHold();
+
+    if (holdStartedAt && elapsed < 500 && hadText) {
+      try {
+        if (!window.localStorage.getItem(CLEAR_HINT_KEY)) {
+          showToast("× 需長按 500ms 才會清除");
+          window.localStorage.setItem(CLEAR_HINT_KEY, "1");
+        }
+      } catch {
+        /* storage blocked (private mode) — silently skip hint persistence */
+      }
+    }
+    holdStartedAt = 0;
+  };
+
+  const keyboardClear = (event) => {
+    if ((event.key !== "Enter" && event.key !== " ") || event.repeat) {
+      return;
+    }
+    if (!getDisplayText(appState)) {
+      return;
+    }
+    event.preventDefault();
+    clearAllText();
   };
 
   elements.clearButton.addEventListener("pointerdown", startHold);
   elements.clearButton.addEventListener("pointerup", cancelHold);
   elements.clearButton.addEventListener("pointerleave", cancelHold);
   elements.clearButton.addEventListener("pointercancel", cancelHold);
+  elements.clearButton.addEventListener("keydown", keyboardClear);
 }
 
 function clearHold() {
