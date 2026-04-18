@@ -464,10 +464,13 @@ async function copyText() {
 
   setFeedback("已複製✓");
   showToast("已複製到剪貼簿\n切換到目標 App，長按輸入框選「貼上」");
-  elements.copyButton.textContent = "已複製 ✓";
-  window.setTimeout(() => {
-    elements.copyButton.textContent = "複製";
-  }, 1500);
+  const copyLabel = elements.copyButton.querySelector("span");
+  if (copyLabel) {
+    copyLabel.textContent = "已複製 ✓";
+    window.setTimeout(() => {
+      copyLabel.textContent = "複製";
+    }, 1500);
+  }
 }
 
 async function shareText() {

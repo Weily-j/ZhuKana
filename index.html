@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#2f6fed" />
+    <meta name="theme-color" content="#007AFF" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -34,37 +34,45 @@
             <p id="feedback-message" class="feedback-message" aria-live="polite"></p>
           </div>
 
-          <div
-            id="text-display"
-            class="text-display"
-            role="textbox"
-            aria-readonly="true"
-            aria-label="日文輸出文字"
-            tabindex="0"
-          >
-            <span id="confirmed-text"></span>
-            <span id="buffer-text"></span>
-            <span id="empty-placeholder" class="empty-placeholder">從下方鍵盤開始輸入日文假名</span>
+          <div class="text-display-wrap">
+            <div
+              id="text-display"
+              class="text-display"
+              role="textbox"
+              aria-readonly="true"
+              aria-label="日文輸出文字"
+              tabindex="0"
+            >
+              <span id="confirmed-text"></span>
+              <span id="buffer-text"></span>
+              <span id="empty-placeholder" class="empty-placeholder">從下方鍵盤開始輸入日文假名</span>
+            </div>
+            <button
+              id="clear-button"
+              class="text-display__clear"
+              aria-label="長按清除所有文字"
+              title="長按 500ms 清除"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
           </div>
 
           <div class="output-actions">
             <div class="action-cluster">
               <button id="copy-button" class="output-button output-button--copy" aria-label="複製輸出文字">
-                複製
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" />
+                  <path d="M5 15V5a2 2 0 0 1 2-2h10" />
+                </svg>
+                <span>複製</span>
               </button>
               <button id="share-button" class="output-button output-button--share" aria-label="分享輸出文字">
-                分享
-              </button>
-            </div>
-
-            <div class="clear-stack">
-              <small class="clear-hint">長按才清除</small>
-              <button
-                id="clear-button"
-                class="output-button output-button--clear"
-                aria-label="長按清除所有文字"
-              >
-                清除
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7" />
+                  <polyline points="16 6 12 2 8 6" />
+                  <line x1="12" y1="2" x2="12" y2="15" />
+                </svg>
+                <span>分享</span>
               </button>
             </div>
           </div>

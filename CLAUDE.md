@@ -48,6 +48,6 @@ node scripts/generate-icon.mjs    # 重新產生 icons/app-icon-{192,512}.png
 
 ## Pending (需實機驗證)
 
-- iOS Safari：flick 輸入、複製、Safe Area
-- Android Chrome：震動回饋、分享功能
-- Add to Home Screen / 安裝提示流程
+- iOS Safari：flick 輸入、複製、Safe Area、`ios-style-refresh` 的新視覺
+- Android Chrome：震動回饋、分享功能、`ios-style-refresh` 的圓角/字級顯示
+- 5 欄改版評估：`ios-style-refresh` 上線後收集回饋再決定是否升 5 欄（詳 `memory/project_keyboard_5col_pending.md`）
