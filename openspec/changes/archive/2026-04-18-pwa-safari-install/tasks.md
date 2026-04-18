@@ -18,4 +18,4 @@
 
 - [x] 4.1 執行 `node --test` 確認全部通過
 - [x] 4.2 執行 `npm run build:pages` 確認建置無誤
-- [ ] 4.3（實機）在 iOS Safari 執行「加入主畫面」→ 從桌面開啟確認 standalone 模式
+- [x] 4.3（實機）在 iOS Safari 執行「加入主畫面」→ 從桌面開啟確認 standalone 模式
