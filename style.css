@@ -26,6 +26,15 @@
   --key-size: minmax(0, 1fr);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top: env(safe-area-inset-top, 0px);
+  --kbd-bg: #d1d5db;
+  --kbd-key-bg: #ffffff;
+  --kbd-key-bg-pressed: #a8aebc;
+  --kbd-fn-bg: #adb5bd;
+  --kbd-fn-bg-pressed: #888e99;
+  --kbd-key-shadow: 0 1px 0 1px #898a8d;
+  --kbd-fn-shadow: 0 1px 0 1px #62666e;
+  --cand-bg: #ffffff;
+  --cand-border: #c5c5c5;
 }
 
 * {
@@ -99,6 +108,12 @@ button {
   margin: 0;
   font-size: clamp(1.45rem, 5vw, 2rem);
   line-height: 1.1;
+}
+
+.app-tagline {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .mode-status {
@@ -185,6 +200,8 @@ button {
   line-height: 1.5;
   white-space: pre-wrap;
   word-break: break-word;
+  -webkit-user-select: text;
+  user-select: text;
 }
 
 .text-display:focus-visible,
@@ -236,10 +253,14 @@ button {
 }
 
 .output-button--copy {
-  background: linear-gradient(135deg, var(--copy), #2a91de);
+  flex: 2;
+  font-weight: 700;
+  background: var(--primary);
+  color: #fff;
 }
 
 .output-button--share {
+  flex: 1;
   background: linear-gradient(135deg, var(--share), #9156eb);
 }
 
@@ -274,7 +295,8 @@ button {
   overflow: hidden;
   border: 1px solid rgba(47, 111, 237, 0.12);
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--cand-bg);
+  border-bottom: 1px solid var(--cand-border);
   box-shadow: var(--shadow-sm);
 }
 
@@ -334,7 +356,12 @@ button {
 
 .keyboard-panel {
   min-height: 55%;
+  padding-top: 12px;
   padding-bottom: calc(4px + env(safe-area-inset-bottom));
+  background: var(--kbd-bg);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .keyboard-grid {
@@ -358,10 +385,22 @@ button {
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .keyboard-key.is-pressed {
   transform: translateY(1px) scale(0.985);
+}
+
+.keyboard-key--row {
+  background: var(--kbd-key-bg);
+  border-radius: 10px;
+  box-shadow: var(--kbd-key-shadow);
+}
+
+.keyboard-key--row.is-pressed {
+  background: var(--kbd-key-bg-pressed);
+  box-shadow: none;
 }
 
 .keyboard-key--row .key-main {
@@ -377,7 +416,14 @@ button {
 
 .keyboard-key--action {
   align-content: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(238, 243, 255, 0.92));
+  background: var(--kbd-fn-bg);
+  border-radius: 10px;
+  box-shadow: var(--kbd-fn-shadow);
+}
+
+.keyboard-key--action.is-pressed {
+  background: var(--kbd-fn-bg-pressed);
+  box-shadow: none;
 }
 
 .keyboard-key--action .key-main {
@@ -389,6 +435,18 @@ button {
   color: var(--muted);
   font-size: 0.7rem;
   font-weight: 700;
+}
+
+.keyboard-key--action[data-action-id="confirm"] {
+  background: #007aff;
+  color: #fff;
+  box-shadow: 0 1px 0 1px #0055cc;
+}
+
+.keyboard-key--action[data-action-id="confirm"]:disabled {
+  background: var(--kbd-fn-bg);
+  color: var(--muted);
+  box-shadow: var(--kbd-fn-shadow);
 }
 
 .keyboard-key--exception {
@@ -502,6 +560,7 @@ button {
   text-align: center;
   transform: translateX(-50%);
   box-shadow: var(--shadow-sm);
+  white-space: pre-line;
 }
 
 .rotate-lock {

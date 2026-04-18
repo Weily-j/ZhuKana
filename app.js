@@ -451,21 +451,23 @@ async function copyText() {
 
   if (navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(text);
-    setFeedback("已複製✓");
-    showToast("已複製✓");
-    return;
+  } else {
+    const fallback = document.createElement("textarea");
+    fallback.value = text;
+    fallback.style.position = "fixed";
+    fallback.style.opacity = "0";
+    document.body.append(fallback);
+    fallback.select();
+    document.execCommand("copy");
+    fallback.remove();
   }
 
-  const fallback = document.createElement("textarea");
-  fallback.value = text;
-  fallback.style.position = "fixed";
-  fallback.style.opacity = "0";
-  document.body.append(fallback);
-  fallback.select();
-  document.execCommand("copy");
-  fallback.remove();
   setFeedback("已複製✓");
-  showToast("已複製✓");
+  showToast("已複製到剪貼簿\n切換到目標 App，長按輸入框選「貼上」");
+  elements.copyButton.textContent = "已複製 ✓";
+  window.setTimeout(() => {
+    elements.copyButton.textContent = "複製";
+  }, 1500);
 }
 
 async function shareText() {
